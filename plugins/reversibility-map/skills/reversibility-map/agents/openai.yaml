@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reversibility Map"
+  short_description: "Expose hidden one-way effects before change"
+  default_prompt: "Use $reversibility-map to find the last safe rollback point."

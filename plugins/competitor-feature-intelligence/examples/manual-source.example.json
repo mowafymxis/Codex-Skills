@@ -1,0 +1,51 @@
+[
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://nebula.example/docs/features",
+    "sourceType": "documentation",
+    "title": "Nebula Desk features",
+    "publisher": "Nebula Desk",
+    "isOfficial": true,
+    "retrievedAt": "2026-06-20T12:00:00.000Z",
+    "text": "Nebula Desk provides enterprise SSO and webhooks. Its collaborative editing is in beta.",
+    "reliability": "high",
+    "notes": []
+  },
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://reviews.example/nebula",
+    "sourceType": "review",
+    "title": "Nebula review",
+    "publisher": "Fictional Reviews",
+    "isOfficial": false,
+    "retrievedAt": "2026-06-18T12:00:00.000Z",
+    "text": "A reviewer says the native mobile app and AI recommendations exist, but the official sources reviewed do not confirm them.",
+    "reliability": "low",
+    "notes": ["Conflicts with incomplete official coverage; preserve as a weak claim."]
+  },
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://nebula.example/features",
+    "sourceType": "product",
+    "title": "Nebula marketing features",
+    "publisher": "Nebula Desk",
+    "isOfficial": true,
+    "retrievedAt": "2026-06-19T12:00:00.000Z",
+    "text": "Email notifications keep every team informed.",
+    "reliability": "medium",
+    "notes": ["Official marketing claim; implementation was not directly observed."]
+  },
+  {
+    "competitorId": "quasar-74e1fd83",
+    "url": "https://quasar.example/unavailable",
+    "sourceType": "product",
+    "title": "Unavailable source",
+    "publisher": "Quasar",
+    "isOfficial": true,
+    "retrievedAt": "2026-06-20T12:00:00.000Z",
+    "text": "",
+    "fetchStatus": "failed",
+    "reliability": "unknown",
+    "notes": ["Source was unavailable; this is not absence evidence."]
+  }
+]

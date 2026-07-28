@@ -1,0 +1,32 @@
+{
+  "name": "test-oracle-designer",
+  "version": "1.0.0",
+  "description": "Design reliable ways to decide whether software is correct when exact expected outputs are unknown, expensive, nondeterministic, or produced by legacy or AI systems. Use for parsers, optimizers, simulations, migrations, search, numerical code, data pipelines, generative systems, and refactors lacking trustworthy golden outputs.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Test Oracle Designer",
+    "shortDescription": "Test correctness without trusted golden output",
+    "longDescription": "Design reliable ways to decide whether software is correct when exact expected outputs are unknown, expensive, nondeterministic, or produced by legacy or AI systems. Use for parsers, optimizers, simulations, migrations, search, numerical code, data pipelines, generative systems, and refactors lacking trustworthy golden outputs.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $test-oracle-designer to build an independent oracle."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "test-oracle-designer"
+  ]
+}

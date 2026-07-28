@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Blast Radius"
+  short_description: "Trace behavioral impact beyond code references"
+  default_prompt: "Use $semantic-blast-radius to map every affected contract."

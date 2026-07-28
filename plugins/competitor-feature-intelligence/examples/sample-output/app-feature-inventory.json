@@ -1,0 +1,95 @@
+[
+  {
+    "id": "authentication-b9d90628",
+    "name": "Authentication",
+    "category": "Identity",
+    "description": "Repository evidence indicates authentication behavior.",
+    "userValue": "Users can securely access accounts.",
+    "status": "partial",
+    "maturityScore": 3,
+    "confidence": "medium",
+    "evidence": [
+      {
+        "type": "code",
+        "path": "src/auth.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Authentication appear in this file.",
+        "reliability": "high"
+      }
+    ],
+    "relatedFiles": [
+      "src/auth.ts"
+    ],
+    "dependencies": [],
+    "qualityNotes": [
+      "Coverage or completion signals are limited."
+    ],
+    "risks": [],
+    "missingPieces": [
+      "Verify the end-to-end workflow, authorization, validation, and failure states."
+    ]
+  },
+  {
+    "id": "data-export-04c82a48",
+    "name": "Data export",
+    "category": "Data portability",
+    "description": "Repository evidence indicates data export behavior.",
+    "userValue": "Users can retrieve their data.",
+    "status": "partial",
+    "maturityScore": 3,
+    "confidence": "medium",
+    "evidence": [
+      {
+        "type": "code",
+        "path": "src/export.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Data export appear in this file.",
+        "reliability": "high"
+      }
+    ],
+    "relatedFiles": [
+      "src/export.ts"
+    ],
+    "dependencies": [],
+    "qualityNotes": [
+      "Coverage or completion signals are limited."
+    ],
+    "risks": [],
+    "missingPieces": [
+      "Verify the end-to-end workflow, authorization, validation, and failure states."
+    ]
+  },
+  {
+    "id": "team-workspaces-7c911a94",
+    "name": "Team workspaces",
+    "category": "Collaboration",
+    "description": "Repository evidence indicates team workspaces behavior.",
+    "userValue": "Groups can collaborate in a shared space.",
+    "status": "partial",
+    "maturityScore": 3,
+    "confidence": "medium",
+    "evidence": [
+      {
+        "type": "code",
+        "path": "src/workspace.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Team workspaces appear in this file.",
+        "reliability": "high"
+      }
+    ],
+    "relatedFiles": [
+      "src/workspace.ts"
+    ],
+    "dependencies": [],
+    "qualityNotes": [
+      "Coverage or completion signals are limited."
+    ],
+    "risks": [],
+    "missingPieces": [
+      "Verify the end-to-end workflow, authorization, validation, and failure states."
+    ]
+  }
+]

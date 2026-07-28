@@ -1,0 +1,22 @@
+{
+  "name": "competitor-feature-intelligence",
+  "version": "1.0.0",
+  "description": "Repo-aware, evidence-backed competitor feature intelligence and product roadmap generation.",
+  "author": {
+    "name": "Competitor Feature Intelligence Contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Competitor Feature Intelligence",
+    "shortDescription": "Repo-aware competitive product intelligence.",
+    "longDescription": "Inventory real repository behavior, compare authorized public competitor evidence, and generate defensible product roadmaps.",
+    "developerName": "Competitor Feature Intelligence Contributors",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Network"],
+    "defaultPrompt": [
+      "Analyze this repository against my competitors.",
+      "Inventory this repository's product features.",
+      "Compare this scan with the previous report."
+    ]
+  }
+}

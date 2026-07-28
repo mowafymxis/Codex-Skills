@@ -1,0 +1,1529 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-06-27T20:40:12.011Z",
+  "pluginVersion": "1.0.0",
+  "app": {
+    "name": "Orbit Notes",
+    "url": "https://orbit-notes.example",
+    "category": "unknown",
+    "targetUsers": [
+      "researchers",
+      "small teams"
+    ],
+    "businessModel": "freemium subscription",
+    "stage": "MVP",
+    "summary": "3 repository-supported feature areas detected.",
+    "maturity": "early",
+    "techStack": [],
+    "strengths": [
+      "authentication",
+      "data export",
+      "team workspaces"
+    ],
+    "weaknesses": [
+      "ai recommendations",
+      "email notifications",
+      "enterprise sso",
+      "native mobile app",
+      "real time collaboration",
+      "webhooks"
+    ],
+    "evidence": [
+      {
+        "type": "code",
+        "path": "src/auth.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Authentication appear in this file.",
+        "reliability": "high"
+      },
+      {
+        "type": "code",
+        "path": "src/export.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Data export appear in this file.",
+        "reliability": "high"
+      },
+      {
+        "type": "code",
+        "path": "src/workspace.ts",
+        "lineStart": 1,
+        "lineEnd": 1,
+        "summary": "Behavioral signals for Team workspaces appear in this file.",
+        "reliability": "high"
+      }
+    ]
+  },
+  "competitors": [
+    {
+      "id": "nebula-desk-7bb804bd",
+      "name": "Nebula Desk",
+      "url": "https://nebula.example",
+      "type": "direct"
+    }
+  ],
+  "appFeatures": [
+    {
+      "id": "authentication-b9d90628",
+      "name": "Authentication",
+      "category": "Identity",
+      "description": "Repository evidence indicates authentication behavior.",
+      "userValue": "Users can securely access accounts.",
+      "status": "partial",
+      "maturityScore": 3,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/auth.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Authentication appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "relatedFiles": [
+        "src/auth.ts"
+      ],
+      "dependencies": [],
+      "qualityNotes": [
+        "Coverage or completion signals are limited."
+      ],
+      "risks": [],
+      "missingPieces": [
+        "Verify the end-to-end workflow, authorization, validation, and failure states."
+      ]
+    },
+    {
+      "id": "data-export-04c82a48",
+      "name": "Data export",
+      "category": "Data portability",
+      "description": "Repository evidence indicates data export behavior.",
+      "userValue": "Users can retrieve their data.",
+      "status": "partial",
+      "maturityScore": 3,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/export.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Data export appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "relatedFiles": [
+        "src/export.ts"
+      ],
+      "dependencies": [],
+      "qualityNotes": [
+        "Coverage or completion signals are limited."
+      ],
+      "risks": [],
+      "missingPieces": [
+        "Verify the end-to-end workflow, authorization, validation, and failure states."
+      ]
+    },
+    {
+      "id": "team-workspaces-7c911a94",
+      "name": "Team workspaces",
+      "category": "Collaboration",
+      "description": "Repository evidence indicates team workspaces behavior.",
+      "userValue": "Groups can collaborate in a shared space.",
+      "status": "partial",
+      "maturityScore": 3,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/workspace.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Team workspaces appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "relatedFiles": [
+        "src/workspace.ts"
+      ],
+      "dependencies": [],
+      "qualityNotes": [
+        "Coverage or completion signals are limited."
+      ],
+      "risks": [],
+      "missingPieces": [
+        "Verify the end-to-end workflow, authorization, validation, and failure states."
+      ]
+    }
+  ],
+  "competitorFeatures": [
+    {
+      "id": "nebula-desk-7bb804bd-ai-recommendations-b74ad7bf",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "AI recommendations",
+      "normalizedName": "ai recommendations",
+      "category": "AI",
+      "description": "Evidence for AI recommendations appears in Nebula review.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "available"
+      },
+      "evidenceType": "third-party-review",
+      "confidence": "low",
+      "maturityEstimate": "functional",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://reviews.example/nebula"
+      ],
+      "notes": [
+        "Matched evidence near character 42."
+      ]
+    },
+    {
+      "id": "nebula-desk-7bb804bd-email-notifications-6efcb8be",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "Email notifications",
+      "normalizedName": "email notifications",
+      "category": "Engagement",
+      "description": "Evidence for Email notifications appears in Nebula marketing features.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "claimed"
+      },
+      "evidenceType": "official-marketing-claim",
+      "confidence": "medium",
+      "maturityEstimate": "unknown",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://nebula.example/features"
+      ],
+      "notes": [
+        "Matched evidence near character 0."
+      ]
+    },
+    {
+      "id": "nebula-desk-7bb804bd-enterprise-sso-2b718604",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "Enterprise SSO",
+      "normalizedName": "enterprise sso",
+      "category": "Identity",
+      "description": "Evidence for Enterprise SSO appears in Nebula Desk features.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "available"
+      },
+      "evidenceType": "documentation-confirmed",
+      "confidence": "high",
+      "maturityEstimate": "functional",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://nebula.example/docs/features"
+      ],
+      "notes": [
+        "Matched evidence near character 21."
+      ]
+    },
+    {
+      "id": "nebula-desk-7bb804bd-native-mobile-app-dc781c94",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "Native mobile app",
+      "normalizedName": "native mobile app",
+      "category": "Mobile",
+      "description": "Evidence for Native mobile app appears in Nebula review.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "available"
+      },
+      "evidenceType": "third-party-review",
+      "confidence": "low",
+      "maturityEstimate": "functional",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://reviews.example/nebula"
+      ],
+      "notes": [
+        "Matched evidence near character 20."
+      ]
+    },
+    {
+      "id": "nebula-desk-7bb804bd-real-time-collaboration-7a3b325b",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "Real-time collaboration",
+      "normalizedName": "real-time collaboration",
+      "category": "Collaboration",
+      "description": "Evidence for Real-time collaboration appears in Nebula Desk features.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "available"
+      },
+      "evidenceType": "documentation-confirmed",
+      "confidence": "high",
+      "maturityEstimate": "functional",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://nebula.example/docs/features"
+      ],
+      "notes": [
+        "Matched evidence near character 54."
+      ]
+    },
+    {
+      "id": "nebula-desk-7bb804bd-webhooks-1ae1de73",
+      "competitorId": "nebula-desk-7bb804bd",
+      "name": "Webhooks",
+      "normalizedName": "webhooks",
+      "category": "Integrations",
+      "description": "Evidence for Webhooks appears in Nebula Desk features.",
+      "userWorkflow": "Not directly observed in the collected source.",
+      "targetUser": "unknown",
+      "availability": {
+        "plan": "unknown",
+        "platform": "unknown",
+        "region": "unknown",
+        "status": "available"
+      },
+      "evidenceType": "documentation-confirmed",
+      "confidence": "high",
+      "maturityEstimate": "functional",
+      "uxEstimate": "unknown",
+      "strategicValue": "unknown",
+      "tableStakes": false,
+      "differentiating": false,
+      "sources": [
+        "https://nebula.example/docs/features"
+      ],
+      "notes": [
+        "Matched evidence near character 40."
+      ]
+    }
+  ],
+  "normalizedFeatures": [
+    {
+      "id": "ai-recommendations-79bfe014",
+      "canonicalName": "ai recommendations",
+      "aliases": [
+        "AI recommendations"
+      ],
+      "category": "AI",
+      "description": "Evidence for AI recommendations appears in Nebula review.",
+      "inclusionRules": [
+        "Evidence explicitly describes ai recommendations."
+      ],
+      "exclusionRules": [
+        "ai chat"
+      ],
+      "relatedButDistinct": [
+        "ai chat"
+      ],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://reviews.example/nebula",
+          "summary": "Supports AI recommendations."
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "authentication-b9d90628",
+      "canonicalName": "authentication",
+      "aliases": [
+        "Authentication"
+      ],
+      "category": "Identity",
+      "description": "Repository evidence indicates authentication behavior.",
+      "inclusionRules": [
+        "Evidence explicitly describes authentication."
+      ],
+      "exclusionRules": [],
+      "relatedButDistinct": [],
+      "appStatus": "partial",
+      "competitorAvailability": [],
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/auth.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Authentication appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "data-export-04c82a48",
+      "canonicalName": "data export",
+      "aliases": [
+        "Data export"
+      ],
+      "category": "Data portability",
+      "description": "Repository evidence indicates data export behavior.",
+      "inclusionRules": [
+        "Evidence explicitly describes data export."
+      ],
+      "exclusionRules": [],
+      "relatedButDistinct": [],
+      "appStatus": "partial",
+      "competitorAvailability": [],
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/export.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Data export appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "email-notifications-5c7881f6",
+      "canonicalName": "email notifications",
+      "aliases": [
+        "Email notifications"
+      ],
+      "category": "Engagement",
+      "description": "Evidence for Email notifications appears in Nebula marketing features.",
+      "inclusionRules": [
+        "Evidence explicitly describes email notifications."
+      ],
+      "exclusionRules": [
+        "push notifications"
+      ],
+      "relatedButDistinct": [
+        "push notifications"
+      ],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/features",
+          "summary": "Supports Email notifications."
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "enterprise-sso-d7b47440",
+      "canonicalName": "enterprise sso",
+      "aliases": [
+        "Enterprise SSO"
+      ],
+      "category": "Identity",
+      "description": "Evidence for Enterprise SSO appears in Nebula Desk features.",
+      "inclusionRules": [
+        "Evidence explicitly describes enterprise sso."
+      ],
+      "exclusionRules": [
+        "google login"
+      ],
+      "relatedButDistinct": [
+        "google login"
+      ],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Enterprise SSO."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "native-mobile-app-33825251",
+      "canonicalName": "native mobile app",
+      "aliases": [
+        "Native mobile app"
+      ],
+      "category": "Mobile",
+      "description": "Evidence for Native mobile app appears in Nebula review.",
+      "inclusionRules": [
+        "Evidence explicitly describes native mobile app."
+      ],
+      "exclusionRules": [
+        "responsive web"
+      ],
+      "relatedButDistinct": [
+        "responsive web"
+      ],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://reviews.example/nebula",
+          "summary": "Supports Native mobile app."
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "real-time-collaboration-1fd0f901",
+      "canonicalName": "real time collaboration",
+      "aliases": [
+        "Real-time collaboration"
+      ],
+      "category": "Collaboration",
+      "description": "Evidence for Real-time collaboration appears in Nebula Desk features.",
+      "inclusionRules": [
+        "Evidence explicitly describes real time collaboration."
+      ],
+      "exclusionRules": [],
+      "relatedButDistinct": [],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Real-time collaboration."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "team-workspaces-7c911a94",
+      "canonicalName": "team workspaces",
+      "aliases": [
+        "Team workspaces"
+      ],
+      "category": "Collaboration",
+      "description": "Repository evidence indicates team workspaces behavior.",
+      "inclusionRules": [
+        "Evidence explicitly describes team workspaces."
+      ],
+      "exclusionRules": [
+        "role-based access control"
+      ],
+      "relatedButDistinct": [
+        "role-based access control"
+      ],
+      "appStatus": "partial",
+      "competitorAvailability": [],
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/workspace.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Team workspaces appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "webhooks-a58f0473",
+      "canonicalName": "webhooks",
+      "aliases": [
+        "Webhooks"
+      ],
+      "category": "Integrations",
+      "description": "Evidence for Webhooks appears in Nebula Desk features.",
+      "inclusionRules": [
+        "Evidence explicitly describes webhooks."
+      ],
+      "exclusionRules": [
+        "api access"
+      ],
+      "relatedButDistinct": [
+        "api access"
+      ],
+      "appStatus": "missing",
+      "competitorAvailability": [
+        "nebula-desk-7bb804bd"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Webhooks."
+        }
+      ],
+      "confidence": "high"
+    }
+  ],
+  "featureGaps": [
+    {
+      "id": "ai-recommendations-79bfe014",
+      "feature": "ai recommendations",
+      "category": "AI",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Validate First",
+      "priorityLabel": "Validate First",
+      "priorityScore": 2.38,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 2,
+        "difficulty": 4,
+        "operationalCost": 4,
+        "mvpSuitability": 3
+      },
+      "rationale": "Decision-support score 2.38/5: impact 2.78 less delivery/operations penalty 0.40. Evidence strength 2/5; difficulty 4/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://reviews.example/nebula",
+          "summary": "Supports AI recommendations."
+        }
+      ],
+      "confidence": "low",
+      "mvpVersion": "Implement the smallest end-to-end ai recommendations workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished ai recommendations experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": [
+        "Evidence is weak; validate demand before implementation."
+      ]
+    },
+    {
+      "id": "authentication-b9d90628",
+      "feature": "authentication",
+      "category": "Identity",
+      "appStatus": "partial",
+      "competitiveStatus": "app advantage",
+      "competitors": [],
+      "recommendation": "Differentiator to Protect",
+      "priorityLabel": "Build Now",
+      "priorityScore": 3.53,
+      "scoreInputs": {
+        "importance": 5,
+        "urgency": 3,
+        "userPainSeverity": 4,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 5,
+        "trustImpact": 5,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 3,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 5
+      },
+      "rationale": "Decision-support score 3.53/5: impact 3.80 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/auth.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Authentication appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium",
+      "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+      "fullVersion": "Deliver a polished authentication experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "data-export-04c82a48",
+      "feature": "data export",
+      "category": "Data portability",
+      "appStatus": "partial",
+      "competitiveStatus": "app advantage",
+      "competitors": [],
+      "recommendation": "Differentiator to Protect",
+      "priorityLabel": "Build Next",
+      "priorityScore": 3.26,
+      "scoreInputs": {
+        "importance": 5,
+        "urgency": 3,
+        "userPainSeverity": 4,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 2,
+        "trustImpact": 5,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 3,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 5
+      },
+      "rationale": "Decision-support score 3.26/5: impact 3.53 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/export.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Data export appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium",
+      "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+      "fullVersion": "Deliver a polished data export experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "email-notifications-5c7881f6",
+      "feature": "email notifications",
+      "category": "Engagement",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Consider",
+      "priorityLabel": "Consider",
+      "priorityScore": 2.67,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 4,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 3,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 3
+      },
+      "rationale": "Decision-support score 2.67/5: impact 2.94 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/features",
+          "summary": "Supports Email notifications."
+        }
+      ],
+      "confidence": "medium",
+      "mvpVersion": "Implement the smallest end-to-end email notifications workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished email notifications experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "enterprise-sso-d7b47440",
+      "feature": "enterprise sso",
+      "category": "Identity",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Build Now",
+      "priorityLabel": "Build Now",
+      "priorityScore": 3.91,
+      "scoreInputs": {
+        "importance": 5,
+        "urgency": 5,
+        "userPainSeverity": 4,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 5,
+        "trustImpact": 5,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 5,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 5
+      },
+      "rationale": "Decision-support score 3.91/5: impact 4.18 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Enterprise SSO."
+        }
+      ],
+      "confidence": "high",
+      "mvpVersion": "Implement the smallest end-to-end enterprise sso workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished enterprise sso experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "native-mobile-app-33825251",
+      "feature": "native mobile app",
+      "category": "Mobile",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Do Not Build Yet",
+      "priorityLabel": "Do Not Build Yet",
+      "priorityScore": 2.44,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 2,
+        "difficulty": 4,
+        "operationalCost": 2,
+        "mvpSuitability": 3,
+        "damagesSimplicity": true
+      },
+      "rationale": "Decision-support score 2.44/5: impact 2.78 less delivery/operations penalty 0.34. Evidence strength 2/5; difficulty 4/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://reviews.example/nebula",
+          "summary": "Supports Native mobile app."
+        }
+      ],
+      "confidence": "low",
+      "mvpVersion": "Implement the smallest end-to-end native mobile app workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished native mobile app experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": [
+        "Evidence is weak; validate demand before implementation."
+      ]
+    },
+    {
+      "id": "real-time-collaboration-1fd0f901",
+      "feature": "real time collaboration",
+      "category": "Collaboration",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Consider",
+      "priorityLabel": "Consider",
+      "priorityScore": 2.79,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 4,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 5,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 3
+      },
+      "rationale": "Decision-support score 2.79/5: impact 3.06 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Real-time collaboration."
+        }
+      ],
+      "confidence": "high",
+      "mvpVersion": "Implement the smallest end-to-end real time collaboration workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished real time collaboration experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "team-workspaces-7c911a94",
+      "feature": "team workspaces",
+      "category": "Collaboration",
+      "appStatus": "partial",
+      "competitiveStatus": "app advantage",
+      "competitors": [],
+      "recommendation": "Differentiator to Protect",
+      "priorityLabel": "Consider",
+      "priorityScore": 2.49,
+      "scoreInputs": {
+        "importance": 2,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 4,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 3,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 3
+      },
+      "rationale": "Decision-support score 2.49/5: impact 2.76 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "code",
+          "path": "src/workspace.ts",
+          "lineStart": 1,
+          "lineEnd": 1,
+          "summary": "Behavioral signals for Team workspaces appear in this file.",
+          "reliability": "high"
+        }
+      ],
+      "confidence": "medium",
+      "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+      "fullVersion": "Deliver a polished team workspaces experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    },
+    {
+      "id": "webhooks-a58f0473",
+      "feature": "webhooks",
+      "category": "Integrations",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Consider",
+      "priorityLabel": "Consider",
+      "priorityScore": 2.69,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 5,
+        "difficulty": 3,
+        "operationalCost": 2,
+        "mvpSuitability": 3
+      },
+      "rationale": "Decision-support score 2.69/5: impact 2.96 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://nebula.example/docs/features",
+          "summary": "Supports Webhooks."
+        }
+      ],
+      "confidence": "high",
+      "mvpVersion": "Implement the smallest end-to-end webhooks workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished webhooks experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": []
+    }
+  ],
+  "uxAnalysis": {
+    "status": "evidence-limited",
+    "observations": []
+  },
+  "pricingAnalysis": {
+    "status": "source-dependent",
+    "prices": [],
+    "warning": "No price is reported without cited current evidence."
+  },
+  "trustSecurityAnalysis": {
+    "status": "repository-signals-only",
+    "legalReviewRequired": true
+  },
+  "growthRetentionAnalysis": {
+    "status": "evidence-limited",
+    "recommendations": []
+  },
+  "seoAnalysis": {
+    "status": "evidence-limited"
+  },
+  "accessibilityAnalysis": {
+    "status": "code-signals-only",
+    "wcagConformance": "not-assessed"
+  },
+  "technicalFeasibility": [
+    {
+      "feature": "authentication",
+      "frontend": "Inspect affected UI routes and states.",
+      "backend": "Add validated service/API behavior where required.",
+      "database": "Determine migration needs from the repository schema.",
+      "authorization": "Define and test access rules.",
+      "tests": "Unit, integration, authorization, and failure-state coverage.",
+      "complexity": 3,
+      "risks": [],
+      "likelyAreas": [
+        "src/auth.ts",
+        "src/export.ts",
+        "src/workspace.ts"
+      ],
+      "mvp": "Strengthen the verified workflow and close its documented missing pieces.",
+      "polished": "Deliver a polished authentication experience with observability, accessibility, documentation, and lifecycle handling.",
+      "rollback": "Ship behind a reversible feature flag when risk warrants it."
+    },
+    {
+      "feature": "data export",
+      "frontend": "Inspect affected UI routes and states.",
+      "backend": "Add validated service/API behavior where required.",
+      "database": "Determine migration needs from the repository schema.",
+      "authorization": "Define and test access rules.",
+      "tests": "Unit, integration, authorization, and failure-state coverage.",
+      "complexity": 3,
+      "risks": [],
+      "likelyAreas": [
+        "src/auth.ts",
+        "src/export.ts",
+        "src/workspace.ts"
+      ],
+      "mvp": "Strengthen the verified workflow and close its documented missing pieces.",
+      "polished": "Deliver a polished data export experience with observability, accessibility, documentation, and lifecycle handling.",
+      "rollback": "Ship behind a reversible feature flag when risk warrants it."
+    },
+    {
+      "feature": "enterprise sso",
+      "frontend": "Inspect affected UI routes and states.",
+      "backend": "Add validated service/API behavior where required.",
+      "database": "Determine migration needs from the repository schema.",
+      "authorization": "Define and test access rules.",
+      "tests": "Unit, integration, authorization, and failure-state coverage.",
+      "complexity": 3,
+      "risks": [],
+      "likelyAreas": [
+        "src/auth.ts",
+        "src/export.ts",
+        "src/workspace.ts"
+      ],
+      "mvp": "Implement the smallest end-to-end enterprise sso workflow with authorization, validation, and tests.",
+      "polished": "Deliver a polished enterprise sso experience with observability, accessibility, documentation, and lifecycle handling.",
+      "rollback": "Ship behind a reversible feature flag when risk warrants it."
+    }
+  ],
+  "roadmap": {
+    "buildNow": [
+      {
+        "id": "authentication-b9d90628",
+        "feature": "authentication",
+        "category": "Identity",
+        "appStatus": "partial",
+        "competitiveStatus": "app advantage",
+        "competitors": [],
+        "recommendation": "Differentiator to Protect",
+        "priorityLabel": "Build Now",
+        "priorityScore": 3.53,
+        "scoreInputs": {
+          "importance": 5,
+          "urgency": 3,
+          "userPainSeverity": 4,
+          "revenueImpact": 3,
+          "retentionImpact": 3,
+          "activationImpact": 5,
+          "trustImpact": 5,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 3,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 5
+        },
+        "rationale": "Decision-support score 3.53/5: impact 3.80 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "code",
+            "path": "src/auth.ts",
+            "lineStart": 1,
+            "lineEnd": 1,
+            "summary": "Behavioral signals for Authentication appear in this file.",
+            "reliability": "high"
+          }
+        ],
+        "confidence": "medium",
+        "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+        "fullVersion": "Deliver a polished authentication experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      },
+      {
+        "id": "enterprise-sso-d7b47440",
+        "feature": "enterprise sso",
+        "category": "Identity",
+        "appStatus": "missing",
+        "competitiveStatus": "competitor advantage",
+        "competitors": [
+          "nebula-desk-7bb804bd"
+        ],
+        "recommendation": "Build Now",
+        "priorityLabel": "Build Now",
+        "priorityScore": 3.91,
+        "scoreInputs": {
+          "importance": 5,
+          "urgency": 5,
+          "userPainSeverity": 4,
+          "revenueImpact": 3,
+          "retentionImpact": 3,
+          "activationImpact": 5,
+          "trustImpact": 5,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 5,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 5
+        },
+        "rationale": "Decision-support score 3.91/5: impact 4.18 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "source",
+            "url": "https://nebula.example/docs/features",
+            "summary": "Supports Enterprise SSO."
+          }
+        ],
+        "confidence": "high",
+        "mvpVersion": "Implement the smallest end-to-end enterprise sso workflow with authorization, validation, and tests.",
+        "fullVersion": "Deliver a polished enterprise sso experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      }
+    ],
+    "buildNext": [
+      {
+        "id": "data-export-04c82a48",
+        "feature": "data export",
+        "category": "Data portability",
+        "appStatus": "partial",
+        "competitiveStatus": "app advantage",
+        "competitors": [],
+        "recommendation": "Differentiator to Protect",
+        "priorityLabel": "Build Next",
+        "priorityScore": 3.26,
+        "scoreInputs": {
+          "importance": 5,
+          "urgency": 3,
+          "userPainSeverity": 4,
+          "revenueImpact": 3,
+          "retentionImpact": 3,
+          "activationImpact": 2,
+          "trustImpact": 5,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 3,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 5
+        },
+        "rationale": "Decision-support score 3.26/5: impact 3.53 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "code",
+            "path": "src/export.ts",
+            "lineStart": 1,
+            "lineEnd": 1,
+            "summary": "Behavioral signals for Data export appear in this file.",
+            "reliability": "high"
+          }
+        ],
+        "confidence": "medium",
+        "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+        "fullVersion": "Deliver a polished data export experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      }
+    ],
+    "validateFirst": [
+      {
+        "id": "ai-recommendations-79bfe014",
+        "feature": "ai recommendations",
+        "category": "AI",
+        "appStatus": "missing",
+        "competitiveStatus": "competitor advantage",
+        "competitors": [
+          "nebula-desk-7bb804bd"
+        ],
+        "recommendation": "Validate First",
+        "priorityLabel": "Validate First",
+        "priorityScore": 2.38,
+        "scoreInputs": {
+          "importance": 3,
+          "urgency": 3,
+          "userPainSeverity": 3,
+          "revenueImpact": 3,
+          "retentionImpact": 3,
+          "activationImpact": 2,
+          "trustImpact": 2,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 2,
+          "difficulty": 4,
+          "operationalCost": 4,
+          "mvpSuitability": 3
+        },
+        "rationale": "Decision-support score 2.38/5: impact 2.78 less delivery/operations penalty 0.40. Evidence strength 2/5; difficulty 4/5.",
+        "evidence": [
+          {
+            "type": "source",
+            "url": "https://reviews.example/nebula",
+            "summary": "Supports AI recommendations."
+          }
+        ],
+        "confidence": "low",
+        "mvpVersion": "Implement the smallest end-to-end ai recommendations workflow with authorization, validation, and tests.",
+        "fullVersion": "Deliver a polished ai recommendations experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": [
+          "Evidence is weak; validate demand before implementation."
+        ]
+      }
+    ],
+    "consider": [
+      {
+        "id": "email-notifications-5c7881f6",
+        "feature": "email notifications",
+        "category": "Engagement",
+        "appStatus": "missing",
+        "competitiveStatus": "competitor advantage",
+        "competitors": [
+          "nebula-desk-7bb804bd"
+        ],
+        "recommendation": "Consider",
+        "priorityLabel": "Consider",
+        "priorityScore": 2.67,
+        "scoreInputs": {
+          "importance": 3,
+          "urgency": 3,
+          "userPainSeverity": 3,
+          "revenueImpact": 3,
+          "retentionImpact": 4,
+          "activationImpact": 2,
+          "trustImpact": 2,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 3,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 3
+        },
+        "rationale": "Decision-support score 2.67/5: impact 2.94 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "source",
+            "url": "https://nebula.example/features",
+            "summary": "Supports Email notifications."
+          }
+        ],
+        "confidence": "medium",
+        "mvpVersion": "Implement the smallest end-to-end email notifications workflow with authorization, validation, and tests.",
+        "fullVersion": "Deliver a polished email notifications experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      },
+      {
+        "id": "real-time-collaboration-1fd0f901",
+        "feature": "real time collaboration",
+        "category": "Collaboration",
+        "appStatus": "missing",
+        "competitiveStatus": "competitor advantage",
+        "competitors": [
+          "nebula-desk-7bb804bd"
+        ],
+        "recommendation": "Consider",
+        "priorityLabel": "Consider",
+        "priorityScore": 2.79,
+        "scoreInputs": {
+          "importance": 3,
+          "urgency": 3,
+          "userPainSeverity": 3,
+          "revenueImpact": 3,
+          "retentionImpact": 4,
+          "activationImpact": 2,
+          "trustImpact": 2,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 5,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 3
+        },
+        "rationale": "Decision-support score 2.79/5: impact 3.06 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "source",
+            "url": "https://nebula.example/docs/features",
+            "summary": "Supports Real-time collaboration."
+          }
+        ],
+        "confidence": "high",
+        "mvpVersion": "Implement the smallest end-to-end real time collaboration workflow with authorization, validation, and tests.",
+        "fullVersion": "Deliver a polished real time collaboration experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      },
+      {
+        "id": "team-workspaces-7c911a94",
+        "feature": "team workspaces",
+        "category": "Collaboration",
+        "appStatus": "partial",
+        "competitiveStatus": "app advantage",
+        "competitors": [],
+        "recommendation": "Differentiator to Protect",
+        "priorityLabel": "Consider",
+        "priorityScore": 2.49,
+        "scoreInputs": {
+          "importance": 2,
+          "urgency": 3,
+          "userPainSeverity": 3,
+          "revenueImpact": 3,
+          "retentionImpact": 4,
+          "activationImpact": 2,
+          "trustImpact": 2,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 3,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 3
+        },
+        "rationale": "Decision-support score 2.49/5: impact 2.76 less delivery/operations penalty 0.27. Evidence strength 3/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "code",
+            "path": "src/workspace.ts",
+            "lineStart": 1,
+            "lineEnd": 1,
+            "summary": "Behavioral signals for Team workspaces appear in this file.",
+            "reliability": "high"
+          }
+        ],
+        "confidence": "medium",
+        "mvpVersion": "Strengthen the verified workflow and close its documented missing pieces.",
+        "fullVersion": "Deliver a polished team workspaces experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      },
+      {
+        "id": "webhooks-a58f0473",
+        "feature": "webhooks",
+        "category": "Integrations",
+        "appStatus": "missing",
+        "competitiveStatus": "competitor advantage",
+        "competitors": [
+          "nebula-desk-7bb804bd"
+        ],
+        "recommendation": "Consider",
+        "priorityLabel": "Consider",
+        "priorityScore": 2.69,
+        "scoreInputs": {
+          "importance": 3,
+          "urgency": 3,
+          "userPainSeverity": 3,
+          "revenueImpact": 3,
+          "retentionImpact": 3,
+          "activationImpact": 2,
+          "trustImpact": 2,
+          "uniqueness": 3,
+          "strategicFit": 3,
+          "evidenceStrength": 5,
+          "difficulty": 3,
+          "operationalCost": 2,
+          "mvpSuitability": 3
+        },
+        "rationale": "Decision-support score 2.69/5: impact 2.96 less delivery/operations penalty 0.27. Evidence strength 5/5; difficulty 3/5.",
+        "evidence": [
+          {
+            "type": "source",
+            "url": "https://nebula.example/docs/features",
+            "summary": "Supports Webhooks."
+          }
+        ],
+        "confidence": "high",
+        "mvpVersion": "Implement the smallest end-to-end webhooks workflow with authorization, validation, and tests.",
+        "fullVersion": "Deliver a polished webhooks experience with observability, accessibility, documentation, and lifecycle handling.",
+        "risks": []
+      }
+    ],
+    "later": [],
+    "monitor": [],
+    "ignore": []
+  },
+  "doNotBuildYet": [
+    {
+      "id": "native-mobile-app-33825251",
+      "feature": "native mobile app",
+      "category": "Mobile",
+      "appStatus": "missing",
+      "competitiveStatus": "competitor advantage",
+      "competitors": [
+        "nebula-desk-7bb804bd"
+      ],
+      "recommendation": "Do Not Build Yet",
+      "priorityLabel": "Do Not Build Yet",
+      "priorityScore": 2.44,
+      "scoreInputs": {
+        "importance": 3,
+        "urgency": 3,
+        "userPainSeverity": 3,
+        "revenueImpact": 3,
+        "retentionImpact": 3,
+        "activationImpact": 2,
+        "trustImpact": 2,
+        "uniqueness": 3,
+        "strategicFit": 3,
+        "evidenceStrength": 2,
+        "difficulty": 4,
+        "operationalCost": 2,
+        "mvpSuitability": 3,
+        "damagesSimplicity": true
+      },
+      "rationale": "Decision-support score 2.44/5: impact 2.78 less delivery/operations penalty 0.34. Evidence strength 2/5; difficulty 4/5.",
+      "evidence": [
+        {
+          "type": "source",
+          "url": "https://reviews.example/nebula",
+          "summary": "Supports Native mobile app."
+        }
+      ],
+      "confidence": "low",
+      "mvpVersion": "Implement the smallest end-to-end native mobile app workflow with authorization, validation, and tests.",
+      "fullVersion": "Deliver a polished native mobile app experience with observability, accessibility, documentation, and lifecycle handling.",
+      "risks": [
+        "Evidence is weak; validate demand before implementation."
+      ]
+    }
+  ],
+  "positioning": {
+    "strongestVerifiedAngle": "authentication",
+    "supportedClaims": [
+      "authentication",
+      "data export",
+      "team workspaces"
+    ],
+    "claimsToAvoid": [
+      "Definitive competitor absence without comprehensive source coverage"
+    ]
+  },
+  "changes": [],
+  "sources": [
+    {
+      "competitorId": "nebula-desk-7bb804bd",
+      "url": "https://nebula.example/docs/features",
+      "canonicalUrl": "https://nebula.example/docs/features",
+      "sourceType": "documentation",
+      "title": "Nebula Desk features",
+      "publisher": "Nebula Desk",
+      "isOfficial": true,
+      "publishedAt": null,
+      "retrievedAt": "2026-06-20T12:00:00.000Z",
+      "contentHash": "79dacf8f89b1207a52a8b04ae5608e17513ca257f4f928cd1e634c8bc292a6a3",
+      "fetchStatus": "manual",
+      "httpStatus": null,
+      "text": "Nebula Desk provides enterprise SSO and webhooks. Its collaborative editing is in beta.",
+      "relevantSnippets": [],
+      "reliability": "high",
+      "notes": []
+    },
+    {
+      "competitorId": "nebula-desk-7bb804bd",
+      "url": "https://reviews.example/nebula",
+      "canonicalUrl": "https://reviews.example/nebula",
+      "sourceType": "review",
+      "title": "Nebula review",
+      "publisher": "Fictional Reviews",
+      "isOfficial": false,
+      "publishedAt": null,
+      "retrievedAt": "2026-06-18T12:00:00.000Z",
+      "contentHash": "877949caf53e9820de26d3cc4354f89175f0a3e863816c4af0029a69b0a697df",
+      "fetchStatus": "manual",
+      "httpStatus": null,
+      "text": "A reviewer says the native mobile app and AI recommendations exist, but the official sources reviewed do not confirm them.",
+      "relevantSnippets": [],
+      "reliability": "low",
+      "notes": [
+        "Conflicts with incomplete official coverage; preserve as a weak claim."
+      ]
+    },
+    {
+      "competitorId": "nebula-desk-7bb804bd",
+      "url": "https://nebula.example/features",
+      "canonicalUrl": "https://nebula.example/features",
+      "sourceType": "product",
+      "title": "Nebula marketing features",
+      "publisher": "Nebula Desk",
+      "isOfficial": true,
+      "publishedAt": null,
+      "retrievedAt": "2026-06-19T12:00:00.000Z",
+      "contentHash": "51f5d09cd31e385a981dce7c7bad1c56ab5ec7e809075e6aca5da9fb5733769a",
+      "fetchStatus": "manual",
+      "httpStatus": null,
+      "text": "Email notifications keep every team informed.",
+      "relevantSnippets": [],
+      "reliability": "medium",
+      "notes": [
+        "Official marketing claim; implementation was not directly observed."
+      ]
+    },
+    {
+      "competitorId": "quasar-74e1fd83",
+      "url": "https://quasar.example/unavailable",
+      "canonicalUrl": "https://quasar.example/unavailable",
+      "sourceType": "product",
+      "title": "Unavailable source",
+      "publisher": "Quasar",
+      "isOfficial": true,
+      "publishedAt": null,
+      "retrievedAt": "2026-06-20T12:00:00.000Z",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fetchStatus": "failed",
+      "httpStatus": null,
+      "text": "",
+      "relevantSnippets": [],
+      "reliability": "unknown",
+      "notes": [
+        "Source was unavailable; this is not absence evidence."
+      ]
+    }
+  ],
+  "uncertainty": [
+    "1 source(s) were unavailable or blocked; absence claims are not supported by those failures."
+  ],
+  "warnings": []
+}

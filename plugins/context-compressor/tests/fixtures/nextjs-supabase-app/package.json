@@ -1,0 +1,14 @@
+{
+  "name": "fixture-nextjs-supabase-app",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "vitest": "latest"
+  }
+}

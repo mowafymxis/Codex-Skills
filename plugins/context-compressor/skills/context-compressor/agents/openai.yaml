@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Compressor"
+  short_description: "Generate compact repository memory and briefs"
+  default_prompt: "Use $context-compressor to build a compact project memory."

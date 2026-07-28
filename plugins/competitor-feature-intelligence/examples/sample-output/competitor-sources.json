@@ -1,0 +1,80 @@
+[
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://nebula.example/docs/features",
+    "canonicalUrl": "https://nebula.example/docs/features",
+    "sourceType": "documentation",
+    "title": "Nebula Desk features",
+    "publisher": "Nebula Desk",
+    "isOfficial": true,
+    "publishedAt": null,
+    "retrievedAt": "2026-06-20T12:00:00.000Z",
+    "contentHash": "79dacf8f89b1207a52a8b04ae5608e17513ca257f4f928cd1e634c8bc292a6a3",
+    "fetchStatus": "manual",
+    "httpStatus": null,
+    "text": "Nebula Desk provides enterprise SSO and webhooks. Its collaborative editing is in beta.",
+    "relevantSnippets": [],
+    "reliability": "high",
+    "notes": []
+  },
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://reviews.example/nebula",
+    "canonicalUrl": "https://reviews.example/nebula",
+    "sourceType": "review",
+    "title": "Nebula review",
+    "publisher": "Fictional Reviews",
+    "isOfficial": false,
+    "publishedAt": null,
+    "retrievedAt": "2026-06-18T12:00:00.000Z",
+    "contentHash": "877949caf53e9820de26d3cc4354f89175f0a3e863816c4af0029a69b0a697df",
+    "fetchStatus": "manual",
+    "httpStatus": null,
+    "text": "A reviewer says the native mobile app and AI recommendations exist, but the official sources reviewed do not confirm them.",
+    "relevantSnippets": [],
+    "reliability": "low",
+    "notes": [
+      "Conflicts with incomplete official coverage; preserve as a weak claim."
+    ]
+  },
+  {
+    "competitorId": "nebula-desk-7bb804bd",
+    "url": "https://nebula.example/features",
+    "canonicalUrl": "https://nebula.example/features",
+    "sourceType": "product",
+    "title": "Nebula marketing features",
+    "publisher": "Nebula Desk",
+    "isOfficial": true,
+    "publishedAt": null,
+    "retrievedAt": "2026-06-19T12:00:00.000Z",
+    "contentHash": "51f5d09cd31e385a981dce7c7bad1c56ab5ec7e809075e6aca5da9fb5733769a",
+    "fetchStatus": "manual",
+    "httpStatus": null,
+    "text": "Email notifications keep every team informed.",
+    "relevantSnippets": [],
+    "reliability": "medium",
+    "notes": [
+      "Official marketing claim; implementation was not directly observed."
+    ]
+  },
+  {
+    "competitorId": "quasar-74e1fd83",
+    "url": "https://quasar.example/unavailable",
+    "canonicalUrl": "https://quasar.example/unavailable",
+    "sourceType": "product",
+    "title": "Unavailable source",
+    "publisher": "Quasar",
+    "isOfficial": true,
+    "publishedAt": null,
+    "retrievedAt": "2026-06-20T12:00:00.000Z",
+    "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fetchStatus": "failed",
+    "httpStatus": null,
+    "text": "",
+    "relevantSnippets": [],
+    "reliability": "unknown",
+    "notes": [
+      "Source was unavailable; this is not absence evidence."
+    ]
+  }
+]

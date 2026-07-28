@@ -1,0 +1,7 @@
+{
+  "name": "@fixture/web",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest"
+  }
+}

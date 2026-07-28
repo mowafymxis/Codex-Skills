@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Oracle Designer"
+  short_description: "Test correctness without trusted golden output"
+  default_prompt: "Use $test-oracle-designer to build an independent oracle."

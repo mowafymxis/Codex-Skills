@@ -1,0 +1,4 @@
+interface:
+  display_name: "Invariant Miner"
+  short_description: "Extract hidden rules and executable checks"
+  default_prompt: "Use $invariant-miner to find the rules this system relies on."

@@ -1,0 +1,32 @@
+{
+  "name": "context-compressor",
+  "version": "1.0.0",
+  "description": "Generate and maintain compact PROJECT_MEMORY.md files and task-specific repository briefings.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Context Compressor",
+    "shortDescription": "Compact repository memory and task briefings.",
+    "longDescription": "Scan repositories conservatively, generate compact PROJECT_MEMORY.md files, preserve manual notes, and create task-specific briefings.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create or update compact project memory for this repository."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Context-Compressor",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "context",
+    "repository-memory",
+    "typescript"
+  ]
+}

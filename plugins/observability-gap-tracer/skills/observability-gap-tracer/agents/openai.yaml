@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observability Gap Tracer"
+  short_description: "Connect failures to the minimum useful signals"
+  default_prompt: "Use $observability-gap-tracer to expose this silent failure."

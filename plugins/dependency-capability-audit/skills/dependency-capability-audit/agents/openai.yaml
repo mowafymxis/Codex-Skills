@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dependency Capability Audit"
+  short_description: "Audit what a dependency can actually access"
+  default_prompt: "Use $dependency-capability-audit before adding this package."

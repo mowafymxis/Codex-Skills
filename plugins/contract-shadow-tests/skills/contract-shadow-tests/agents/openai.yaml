@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract Shadow Tests"
+  short_description: "Preserve relied-upon behavior during refactors"
+  default_prompt: "Use $contract-shadow-tests before replacing this implementation."

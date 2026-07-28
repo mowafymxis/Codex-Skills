@@ -1,0 +1,11 @@
+{
+  "name": "node-express-api",
+  "description": "Example Express JSON API.",
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.5.0"
+  }
+}

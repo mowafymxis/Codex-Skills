@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verification Budget Router"
+  short_description: "Route testing effort to consequential failures"
+  default_prompt: "Use $verification-budget-router to prioritize this test budget."

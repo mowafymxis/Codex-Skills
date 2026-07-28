@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Proof Bundle"
+  short_description: "Package independently reproducible change proof"
+  default_prompt: "Use $change-proof-bundle to prove this change within scope."

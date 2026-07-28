@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.turbo/
+.next/
+PROJECT_MEMORY.md
+*.log
+.env
+.env.local
+!.env.example
+!.env.local.example

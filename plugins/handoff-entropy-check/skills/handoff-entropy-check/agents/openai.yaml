@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handoff Entropy Check"
+  short_description: "Make handoffs safe for a cold-start receiver"
+  default_prompt: "Use $handoff-entropy-check to harden this work handoff."

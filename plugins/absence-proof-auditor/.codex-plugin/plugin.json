@@ -1,0 +1,32 @@
+{
+  "name": "absence-proof-auditor",
+  "version": "1.0.0",
+  "description": "Evaluate negative claims such as “unused,” “never called,” “no secrets,” “no route,” or “nothing else changed” with bounded, multi-surface evidence and explicit coverage limits. Use for deletion decisions, security audits, dead-code analysis, migration cleanup, repository reviews, and any conclusion that depends on proving something is absent.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Absence Proof Auditor",
+    "shortDescription": "Test negative claims with bounded coverage",
+    "longDescription": "Evaluate negative claims such as “unused,” “never called,” “no secrets,” “no route,” or “nothing else changed” with bounded, multi-surface evidence and explicit coverage limits. Use for deletion decisions, security audits, dead-code analysis, migration cleanup, repository reviews, and any conclusion that depends on proving something is absent.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $absence-proof-auditor to verify this negative claim."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "absence-proof-auditor"
+  ]
+}

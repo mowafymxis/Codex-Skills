@@ -1,0 +1,32 @@
+{
+  "name": "state-machine-reconstructor",
+  "version": "1.0.0",
+  "description": "Reconstruct an undocumented state machine from guards, transitions, events, persistence, retries, UI labels, and tests, while preserving conflicting and unreachable evidence. Use for workflows, subscriptions, orders, authentication, background jobs, approval systems, incident lifecycles, and debugging impossible or stuck states.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "State Machine Reconstructor",
+    "shortDescription": "Recover hidden states and transition rules",
+    "longDescription": "Reconstruct an undocumented state machine from guards, transitions, events, persistence, retries, UI labels, and tests, while preserving conflicting and unreachable evidence. Use for workflows, subscriptions, orders, authentication, background jobs, approval systems, incident lifecycles, and debugging impossible or stuck states.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $state-machine-reconstructor to model this workflow."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "state-machine-reconstructor"
+  ]
+}

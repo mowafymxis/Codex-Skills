@@ -1,0 +1,32 @@
+{
+  "name": "dependency-capability-audit",
+  "version": "1.0.0",
+  "description": "Audit a software dependency by the capabilities it receives at install, build, and runtime; the data and network boundaries it crosses; its update path; and the application's ability to contain or replace it. Use before adding or upgrading packages, reviewing plugins and SDKs, reducing supply-chain exposure, or evaluating vendor libraries.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dependency Capability Audit",
+    "shortDescription": "Audit what a dependency can actually access",
+    "longDescription": "Audit a software dependency by the capabilities it receives at install, build, and runtime; the data and network boundaries it crosses; its update path; and the application's ability to contain or replace it. Use before adding or upgrading packages, reviewing plugins and SDKs, reducing supply-chain exposure, or evaluating vendor libraries.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $dependency-capability-audit before adding this package."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "dependency-capability-audit"
+  ]
+}

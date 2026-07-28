@@ -1,0 +1,32 @@
+{
+  "name": "verification-budget-router",
+  "version": "1.0.0",
+  "description": "Allocate limited testing and review effort according to failure consequence, uncertainty, detectability, propagation, and reversibility instead of treating every changed line equally. Use when time is constrained, a patch spans multiple risk levels, release confidence must be justified, or a team needs a defensible test plan.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Verification Budget Router",
+    "shortDescription": "Route testing effort to consequential failures",
+    "longDescription": "Allocate limited testing and review effort according to failure consequence, uncertainty, detectability, propagation, and reversibility instead of treating every changed line equally. Use when time is constrained, a patch spans multiple risk levels, release confidence must be justified, or a team needs a defensible test plan.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $verification-budget-router to prioritize this test budget."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "verification-budget-router"
+  ]
+}

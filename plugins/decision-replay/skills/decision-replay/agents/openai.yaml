@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Replay"
+  short_description: "Make decisions reproducible and revisitable"
+  default_prompt: "Use $decision-replay to capture why this option won."

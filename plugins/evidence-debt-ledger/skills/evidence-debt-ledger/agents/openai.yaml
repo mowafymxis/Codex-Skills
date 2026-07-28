@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Debt Ledger"
+  short_description: "Prioritize assumptions that need verification"
+  default_prompt: "Use $evidence-debt-ledger to rank the claims that need evidence."

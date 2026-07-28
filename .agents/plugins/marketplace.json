@@ -1,0 +1,248 @@
+{
+  "name": "personal",
+  "interface": {
+    "displayName": "Personal"
+  },
+  "plugins": [
+    {
+      "name": "competitor-feature-intelligence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/competitor-feature-intelligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "context-compressor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/context-compressor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "intent-drift-guard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/intent-drift-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "evidence-debt-ledger",
+      "source": {
+        "source": "local",
+        "path": "./plugins/evidence-debt-ledger"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "reversibility-map",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reversibility-map"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "semantic-blast-radius",
+      "source": {
+        "source": "local",
+        "path": "./plugins/semantic-blast-radius"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "contract-shadow-tests",
+      "source": {
+        "source": "local",
+        "path": "./plugins/contract-shadow-tests"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "absence-proof-auditor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/absence-proof-auditor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "verification-budget-router",
+      "source": {
+        "source": "local",
+        "path": "./plugins/verification-budget-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "state-machine-reconstructor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/state-machine-reconstructor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "migration-time-machine",
+      "source": {
+        "source": "local",
+        "path": "./plugins/migration-time-machine"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "decision-replay",
+      "source": {
+        "source": "local",
+        "path": "./plugins/decision-replay"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "handoff-entropy-check",
+      "source": {
+        "source": "local",
+        "path": "./plugins/handoff-entropy-check"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "config-precedence-xray",
+      "source": {
+        "source": "local",
+        "path": "./plugins/config-precedence-xray"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "observability-gap-tracer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/observability-gap-tracer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "dependency-capability-audit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dependency-capability-audit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "test-oracle-designer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/test-oracle-designer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "unknown-unknown-hunt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/unknown-unknown-hunt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "invariant-miner",
+      "source": {
+        "source": "local",
+        "path": "./plugins/invariant-miner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "change-proof-bundle",
+      "source": {
+        "source": "local",
+        "path": "./plugins/change-proof-bundle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

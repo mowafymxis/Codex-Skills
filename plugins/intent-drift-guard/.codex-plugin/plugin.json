@@ -1,0 +1,32 @@
+{
+  "name": "intent-drift-guard",
+  "version": "1.0.0",
+  "description": "Keep implementation work aligned with the user's actual authorization by turning a request into goals, non-goals, protected surfaces, and stop conditions, then checking proposed or completed changes for scope drift. Use before or during repository edits, refactors, migrations, automation changes, and any task containing limits such as “only,” “never,” or “do not touch.”",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Intent Drift Guard",
+    "shortDescription": "Keep changes inside the authorized boundary",
+    "longDescription": "Keep implementation work aligned with the user's actual authorization by turning a request into goals, non-goals, protected surfaces, and stop conditions, then checking proposed or completed changes for scope drift. Use before or during repository edits, refactors, migrations, automation changes, and any task containing limits such as “only,” “never,” or “do not touch.”",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $intent-drift-guard to check this task for scope drift."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "intent-drift-guard"
+  ]
+}

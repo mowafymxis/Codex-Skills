@@ -1,0 +1,42 @@
+{
+  "name": "@local/competitor-feature-intelligence",
+  "version": "1.0.0",
+  "description": "Repo-aware competitive product intelligence CLI and Codex plugin",
+  "type": "module",
+  "bin": {
+    "competitor-intel": "dist/src/cli.js"
+  },
+  "files": [
+    "dist/src",
+    "schemas",
+    "skills",
+    ".codex-plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "format:write": "prettier --write .",
+    "test": "npm run build && node --test dist/tests/**/*.test.js",
+    "validate:package": "node scripts/validate-package.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/node": "^24.0.1",
+    "eslint": "^9.29.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.1"
+  },
+  "license": "MIT"
+}

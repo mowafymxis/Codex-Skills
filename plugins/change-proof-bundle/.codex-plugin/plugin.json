@@ -1,0 +1,32 @@
+{
+  "name": "change-proof-bundle",
+  "version": "1.0.0",
+  "description": "Package a completed change with a compact, independently checkable chain from request to diff, tests, operational evidence, rollback, and residual risk. Use before handoff, release, pull-request review, regulated or high-consequence changes, and any situation where “it works” needs reproducible proof.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Change Proof Bundle",
+    "shortDescription": "Package independently reproducible change proof",
+    "longDescription": "Package a completed change with a compact, independently checkable chain from request to diff, tests, operational evidence, rollback, and residual risk. Use before handoff, release, pull-request review, regulated or high-consequence changes, and any situation where “it works” needs reproducible proof.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $change-proof-bundle to prove this change within scope."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "change-proof-bundle"
+  ]
+}

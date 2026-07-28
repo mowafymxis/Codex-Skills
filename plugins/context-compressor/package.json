@@ -1,0 +1,39 @@
+{
+  "name": "context-compressor",
+  "version": "0.1.0",
+  "description": "Generate and maintain compact PROJECT_MEMORY.md files for AI coding agents.",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "examples"
+  ],
+  "bin": {
+    "context-compress": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "scan": "npm run build && node dist/cli.js scan",
+    "check": "npm run build && node dist/cli.js check",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "codex",
+    "ai-agents",
+    "project-memory",
+    "cli",
+    "static-analysis"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3",
+    "vitest": "^1.6.0"
+  }
+}

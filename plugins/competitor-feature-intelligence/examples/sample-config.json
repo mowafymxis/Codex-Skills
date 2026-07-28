@@ -1,0 +1,13 @@
+{
+  "appName": "Orbit Notes",
+  "appUrl": "https://orbit-notes.example",
+  "repoPath": "../fixtures/sample-app",
+  "targetUsers": ["researchers", "small teams"],
+  "businessModel": "freemium subscription",
+  "currentStage": "MVP",
+  "competitors": [{ "name": "Nebula Desk", "url": "https://nebula.example", "type": "direct" }],
+  "outputDirectory": "./sample-output",
+  "strictEvidenceMode": true,
+  "offline": true,
+  "redactSensitiveData": true
+}

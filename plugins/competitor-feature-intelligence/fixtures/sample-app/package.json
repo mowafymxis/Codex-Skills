@@ -1,0 +1,9 @@
+{
+  "name": "orbit-notes",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "fictional"
+  }
+}

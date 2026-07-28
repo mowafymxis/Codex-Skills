@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Time Machine"
+  short_description: "Test migrations across mixed and partial states"
+  default_prompt: "Use $migration-time-machine to check this migration timeline."

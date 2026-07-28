@@ -1,0 +1,4 @@
+interface:
+  display_name: "Config Precedence X-Ray"
+  short_description: "Trace effective config values and binding time"
+  default_prompt: "Use $config-precedence-xray to find which setting actually wins."

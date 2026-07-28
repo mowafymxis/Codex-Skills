@@ -1,0 +1,28 @@
+{
+  "pluginVersion": "1.0.0",
+  "runTimestamp": "2026-06-27T20:40:12.011Z",
+  "configurationSummary": {
+    "app": "Orbit Notes",
+    "competitors": 1
+  },
+  "repositoryCommitInspected": null,
+  "sourcesRetrieved": 3,
+  "failures": [
+    "https://quasar.example/unavailable"
+  ],
+  "warnings": [],
+  "generatedFiles": [
+    "competitive-feature-report.md",
+    "app-feature-inventory.json",
+    "competitor-sources.json",
+    "competitor-features.json",
+    "competitor-feature-matrix.csv",
+    "feature-gap-analysis.json",
+    "recommended-roadmap.md",
+    "do-not-build-yet.md",
+    "positioning-recommendations.md",
+    "technical-feasibility.md",
+    "analysis-metadata.json"
+  ],
+  "partialAnalysis": false
+}

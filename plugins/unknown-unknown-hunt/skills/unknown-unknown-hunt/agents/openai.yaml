@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unknown Unknown Hunt"
+  short_description: "Turn blind spots into bounded system probes"
+  default_prompt: "Use $unknown-unknown-hunt to probe this launch plan."

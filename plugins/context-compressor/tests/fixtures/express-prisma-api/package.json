@@ -1,0 +1,11 @@
+{
+  "name": "fixture-express-prisma-api",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "prisma": "latest"
+  }
+}

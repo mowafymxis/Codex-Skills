@@ -1,0 +1,32 @@
+{
+  "name": "config-precedence-xray",
+  "version": "1.0.0",
+  "description": "Reconstruct the effective value and provenance of configuration across defaults, files, includes, environment variables, secrets, flags, remote control planes, build-time substitution, and runtime mutation. Use for environment-only bugs, deployment mismatches, feature-flag confusion, credential routing, and “works locally” incidents.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Config Precedence Xray",
+    "shortDescription": "Trace effective config values and binding time",
+    "longDescription": "Reconstruct the effective value and provenance of configuration across defaults, files, includes, environment variables, secrets, flags, remote control planes, build-time substitution, and runtime mutation. Use for environment-only bugs, deployment mismatches, feature-flag confusion, credential routing, and “works locally” incidents.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $config-precedence-xray to find which setting actually wins."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "config-precedence-xray"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "messy-large-repo",
+  "dependencies": {
+    "@auth/core": "^0.34.0",
+    "@prisma/client": "^5.16.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "prisma": "^5.16.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@fixture/api",
+  "dependencies": {
+    "express": "latest"
+  }
+}

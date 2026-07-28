@@ -1,0 +1,32 @@
+{
+  "name": "migration-time-machine",
+  "version": "1.0.0",
+  "description": "Analyze a migration across past, present, partial, mixed-version, rollback, retry, and future states, then design compatibility gates and recovery checks. Use for database, data-format, API, event-schema, configuration, storage, identity, and dependency migrations where a happy-path upgrade is insufficient.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Migration Time Machine",
+    "shortDescription": "Test migrations across mixed and partial states",
+    "longDescription": "Analyze a migration across past, present, partial, mixed-version, rollback, retry, and future states, then design compatibility gates and recovery checks. Use for database, data-format, API, event-schema, configuration, storage, identity, and dependency migrations where a happy-path upgrade is insufficient.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $migration-time-machine to check this migration timeline."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "migration-time-machine"
+  ]
+}

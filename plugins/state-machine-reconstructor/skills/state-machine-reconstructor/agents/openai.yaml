@@ -1,0 +1,4 @@
+interface:
+  display_name: "State Machine Reconstructor"
+  short_description: "Recover hidden states and transition rules"
+  default_prompt: "Use $state-machine-reconstructor to model this workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intent Drift Guard"
+  short_description: "Keep changes inside the authorized boundary"
+  default_prompt: "Use $intent-drift-guard to check this task for scope drift."

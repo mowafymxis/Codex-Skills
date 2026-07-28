@@ -1,0 +1,32 @@
+{
+  "name": "observability-gap-tracer",
+  "version": "1.0.0",
+  "description": "Trace a user-visible or operational failure backward to the signals needed to detect, localize, explain, and verify recovery, then identify the smallest missing telemetry. Use for silent failures, incident readiness, background jobs, distributed workflows, unreliable alerts, and changes whose correctness must be observable after release.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Observability Gap Tracer",
+    "shortDescription": "Connect failures to the minimum useful signals",
+    "longDescription": "Trace a user-visible or operational failure backward to the signals needed to detect, localize, explain, and verify recovery, then identify the smallest missing telemetry. Use for silent failures, incident readiness, background jobs, distributed workflows, unreliable alerts, and changes whose correctness must be observable after release.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $observability-gap-tracer to expose this silent failure."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "observability-gap-tracer"
+  ]
+}

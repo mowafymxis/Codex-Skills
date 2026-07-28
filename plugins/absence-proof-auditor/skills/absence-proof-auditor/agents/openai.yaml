@@ -1,0 +1,4 @@
+interface:
+  display_name: "Absence Proof Auditor"
+  short_description: "Test negative claims with bounded coverage"
+  default_prompt: "Use $absence-proof-auditor to verify this negative claim."

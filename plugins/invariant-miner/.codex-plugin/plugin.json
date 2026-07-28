@@ -1,0 +1,32 @@
+{
+  "name": "invariant-miner",
+  "version": "1.0.0",
+  "description": "Infer candidate system invariants from code, schemas, tests, historical fixes, UI constraints, and operational behavior, rank their evidence, and turn them into executable checks. Use for unfamiliar systems, refactors, property-based testing, data integrity, debugging recurring corruption, and documenting rules that are enforced only indirectly.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Invariant Miner",
+    "shortDescription": "Extract hidden rules and executable checks",
+    "longDescription": "Infer candidate system invariants from code, schemas, tests, historical fixes, UI constraints, and operational behavior, rank their evidence, and turn them into executable checks. Use for unfamiliar systems, refactors, property-based testing, data integrity, debugging recurring corruption, and documenting rules that are enforced only indirectly.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $invariant-miner to find the rules this system relies on."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "invariant-miner"
+  ]
+}

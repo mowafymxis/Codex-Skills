@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Feature Intelligence"
+  short_description: "Repo-aware competitive product intelligence"
+  default_prompt: "Use $competitor-feature-intelligence to analyze this repository and produce an evidence-backed competitive roadmap."

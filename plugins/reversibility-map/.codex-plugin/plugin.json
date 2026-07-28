@@ -1,0 +1,32 @@
+{
+  "name": "reversibility-map",
+  "version": "1.0.0",
+  "description": "Map a proposed change by how completely, quickly, and safely it can be undone, including hidden one-way effects in data, identity, billing, external messages, and caches. Use before deployments, migrations, destructive actions, dependency upgrades, feature rollouts, account changes, and production mutations.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Reversibility Map",
+    "shortDescription": "Expose hidden one-way effects before change",
+    "longDescription": "Map a proposed change by how completely, quickly, and safely it can be undone, including hidden one-way effects in data, identity, billing, external messages, and caches. Use before deployments, migrations, destructive actions, dependency upgrades, feature rollouts, account changes, and production mutations.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $reversibility-map to find the last safe rollback point."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "reversibility-map"
+  ]
+}

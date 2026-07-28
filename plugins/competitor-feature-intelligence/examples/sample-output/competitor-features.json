@@ -1,0 +1,176 @@
+[
+  {
+    "id": "nebula-desk-7bb804bd-ai-recommendations-b74ad7bf",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "AI recommendations",
+    "normalizedName": "ai recommendations",
+    "category": "AI",
+    "description": "Evidence for AI recommendations appears in Nebula review.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "available"
+    },
+    "evidenceType": "third-party-review",
+    "confidence": "low",
+    "maturityEstimate": "functional",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://reviews.example/nebula"
+    ],
+    "notes": [
+      "Matched evidence near character 42."
+    ]
+  },
+  {
+    "id": "nebula-desk-7bb804bd-email-notifications-6efcb8be",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "Email notifications",
+    "normalizedName": "email notifications",
+    "category": "Engagement",
+    "description": "Evidence for Email notifications appears in Nebula marketing features.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "claimed"
+    },
+    "evidenceType": "official-marketing-claim",
+    "confidence": "medium",
+    "maturityEstimate": "unknown",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://nebula.example/features"
+    ],
+    "notes": [
+      "Matched evidence near character 0."
+    ]
+  },
+  {
+    "id": "nebula-desk-7bb804bd-enterprise-sso-2b718604",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "Enterprise SSO",
+    "normalizedName": "enterprise sso",
+    "category": "Identity",
+    "description": "Evidence for Enterprise SSO appears in Nebula Desk features.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "available"
+    },
+    "evidenceType": "documentation-confirmed",
+    "confidence": "high",
+    "maturityEstimate": "functional",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://nebula.example/docs/features"
+    ],
+    "notes": [
+      "Matched evidence near character 21."
+    ]
+  },
+  {
+    "id": "nebula-desk-7bb804bd-native-mobile-app-dc781c94",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "Native mobile app",
+    "normalizedName": "native mobile app",
+    "category": "Mobile",
+    "description": "Evidence for Native mobile app appears in Nebula review.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "available"
+    },
+    "evidenceType": "third-party-review",
+    "confidence": "low",
+    "maturityEstimate": "functional",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://reviews.example/nebula"
+    ],
+    "notes": [
+      "Matched evidence near character 20."
+    ]
+  },
+  {
+    "id": "nebula-desk-7bb804bd-real-time-collaboration-7a3b325b",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "Real-time collaboration",
+    "normalizedName": "real-time collaboration",
+    "category": "Collaboration",
+    "description": "Evidence for Real-time collaboration appears in Nebula Desk features.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "available"
+    },
+    "evidenceType": "documentation-confirmed",
+    "confidence": "high",
+    "maturityEstimate": "functional",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://nebula.example/docs/features"
+    ],
+    "notes": [
+      "Matched evidence near character 54."
+    ]
+  },
+  {
+    "id": "nebula-desk-7bb804bd-webhooks-1ae1de73",
+    "competitorId": "nebula-desk-7bb804bd",
+    "name": "Webhooks",
+    "normalizedName": "webhooks",
+    "category": "Integrations",
+    "description": "Evidence for Webhooks appears in Nebula Desk features.",
+    "userWorkflow": "Not directly observed in the collected source.",
+    "targetUser": "unknown",
+    "availability": {
+      "plan": "unknown",
+      "platform": "unknown",
+      "region": "unknown",
+      "status": "available"
+    },
+    "evidenceType": "documentation-confirmed",
+    "confidence": "high",
+    "maturityEstimate": "functional",
+    "uxEstimate": "unknown",
+    "strategicValue": "unknown",
+    "tableStakes": false,
+    "differentiating": false,
+    "sources": [
+      "https://nebula.example/docs/features"
+    ],
+    "notes": [
+      "Matched evidence near character 40."
+    ]
+  }
+]

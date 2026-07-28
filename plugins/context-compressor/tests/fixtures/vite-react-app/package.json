@@ -1,0 +1,10 @@
+{
+  "name": "fixture-vite-react-app",
+  "private": true,
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

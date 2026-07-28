@@ -1,0 +1,32 @@
+{
+  "name": "semantic-blast-radius",
+  "version": "1.0.0",
+  "description": "Trace how a behavior change propagates through callers, stored data, contracts, user expectations, operations, and downstream systems instead of stopping at import references. Use for refactors, API changes, schema changes, auth or billing changes, shared libraries, feature flags, and deceptively small edits with cross-layer consequences.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Semantic Blast Radius",
+    "shortDescription": "Trace behavioral impact beyond code references",
+    "longDescription": "Trace how a behavior change propagates through callers, stored data, contracts, user expectations, operations, and downstream systems instead of stopping at import references. Use for refactors, API changes, schema changes, auth or billing changes, shared libraries, feature flags, and deceptively small edits with cross-layer consequences.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $semantic-blast-radius to map every affected contract."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "semantic-blast-radius"
+  ]
+}

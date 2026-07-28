@@ -1,0 +1,32 @@
+{
+  "name": "evidence-debt-ledger",
+  "version": "1.0.0",
+  "description": "Track claims that implementation decisions depend on, score how weak or stale their evidence is, and convert the riskiest uncertainty into targeted verification work. Use for audits, architecture reviews, debugging, planning, research synthesis, inherited systems, and any task where assumptions may silently become facts.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mmowafy28"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Evidence Debt Ledger",
+    "shortDescription": "Prioritize assumptions that need verification",
+    "longDescription": "Track claims that implementation decisions depend on, score how weak or stale their evidence is, and convert the riskiest uncertainty into targeted verification work. Use for audits, architecture reviews, debugging, planning, research synthesis, inherited systems, and any task where assumptions may silently become facts.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $evidence-debt-ledger to rank the claims that need evidence."
+    ]
+  },
+  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "workflow",
+    "software-engineering",
+    "evidence-debt-ledger"
+  ]
+}
