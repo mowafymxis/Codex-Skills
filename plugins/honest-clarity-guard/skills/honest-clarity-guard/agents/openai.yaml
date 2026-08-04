@@ -1,0 +1,4 @@
+interface:
+  display_name: "Honest Clarity Guard"
+  short_description: "Surface uncertainty and ask useful questions"
+  default_prompt: "Use $honest-clarity-guard to handle this request with explicit uncertainty and no invented claims."
