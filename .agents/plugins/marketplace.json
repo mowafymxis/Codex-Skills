@@ -8,19 +8,19 @@
       "name": "competitor-feature-intelligence",
       "source": {
         "source": "local",
-        "path": "./plugins/competitor-feature-intelligence"
+        "path": "./plugins/research/competitor-feature-intelligence"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Research"
     },
     {
       "name": "context-compressor",
       "source": {
         "source": "local",
-        "path": "./plugins/context-compressor"
+        "path": "./plugins/reasoning/context-compressor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -32,7 +32,7 @@
       "name": "intent-drift-guard",
       "source": {
         "source": "local",
-        "path": "./plugins/intent-drift-guard"
+        "path": "./plugins/reasoning/intent-drift-guard"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -44,7 +44,7 @@
       "name": "evidence-debt-ledger",
       "source": {
         "source": "local",
-        "path": "./plugins/evidence-debt-ledger"
+        "path": "./plugins/reasoning/evidence-debt-ledger"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -56,91 +56,91 @@
       "name": "reversibility-map",
       "source": {
         "source": "local",
-        "path": "./plugins/reversibility-map"
+        "path": "./plugins/quality/reversibility-map"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "semantic-blast-radius",
       "source": {
         "source": "local",
-        "path": "./plugins/semantic-blast-radius"
+        "path": "./plugins/coding/semantic-blast-radius"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "contract-shadow-tests",
       "source": {
         "source": "local",
-        "path": "./plugins/contract-shadow-tests"
+        "path": "./plugins/coding/contract-shadow-tests"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "absence-proof-auditor",
       "source": {
         "source": "local",
-        "path": "./plugins/absence-proof-auditor"
+        "path": "./plugins/quality/absence-proof-auditor"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "verification-budget-router",
       "source": {
         "source": "local",
-        "path": "./plugins/verification-budget-router"
+        "path": "./plugins/quality/verification-budget-router"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "state-machine-reconstructor",
       "source": {
         "source": "local",
-        "path": "./plugins/state-machine-reconstructor"
+        "path": "./plugins/coding/state-machine-reconstructor"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "migration-time-machine",
       "source": {
         "source": "local",
-        "path": "./plugins/migration-time-machine"
+        "path": "./plugins/coding/migration-time-machine"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "decision-replay",
       "source": {
         "source": "local",
-        "path": "./plugins/decision-replay"
+        "path": "./plugins/reasoning/decision-replay"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -152,7 +152,7 @@
       "name": "handoff-entropy-check",
       "source": {
         "source": "local",
-        "path": "./plugins/handoff-entropy-check"
+        "path": "./plugins/reasoning/handoff-entropy-check"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -164,55 +164,55 @@
       "name": "config-precedence-xray",
       "source": {
         "source": "local",
-        "path": "./plugins/config-precedence-xray"
+        "path": "./plugins/coding/config-precedence-xray"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "observability-gap-tracer",
       "source": {
         "source": "local",
-        "path": "./plugins/observability-gap-tracer"
+        "path": "./plugins/coding/observability-gap-tracer"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "dependency-capability-audit",
       "source": {
         "source": "local",
-        "path": "./plugins/dependency-capability-audit"
+        "path": "./plugins/coding/dependency-capability-audit"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "test-oracle-designer",
       "source": {
         "source": "local",
-        "path": "./plugins/test-oracle-designer"
+        "path": "./plugins/coding/test-oracle-designer"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "unknown-unknown-hunt",
       "source": {
         "source": "local",
-        "path": "./plugins/unknown-unknown-hunt"
+        "path": "./plugins/reasoning/unknown-unknown-hunt"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -224,19 +224,31 @@
       "name": "invariant-miner",
       "source": {
         "source": "local",
-        "path": "./plugins/invariant-miner"
+        "path": "./plugins/coding/invariant-miner"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Productivity"
+      "category": "Developer Tools"
     },
     {
       "name": "change-proof-bundle",
       "source": {
         "source": "local",
-        "path": "./plugins/change-proof-bundle"
+        "path": "./plugins/quality/change-proof-bundle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "rigor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/reasoning/rigor"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1,0 +1,14 @@
+interface:
+  display_name: Rigor
+  short_description: Universal balanced multi-pass evaluation
+  default_prompt: Use $rigor to fully evaluate this from every relevant angle, including
+    what is good, what is bad, and the most defensible conclusion.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

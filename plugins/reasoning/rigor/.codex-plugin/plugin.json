@@ -1,0 +1,32 @@
+{
+  "name": "rigor",
+  "version": "1.0.0",
+  "description": "Run a universal, balanced, multi-pass evaluation that preserves every applicable user requirement, identifies what is good and bad, searches for missing considerations and downstream effects, verifies evidence, and produces an honest final judgment.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rigor",
+    "shortDescription": "Universal balanced multi-pass evaluation",
+    "longDescription": "Evaluate requests, ideas, decisions, plans, designs, code, research, calculations, and other work from both the strongest case for and the strongest case against, then produce an evidence-backed conclusion.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $rigor to fully evaluate this from every relevant angle, including what is good, what is bad, and the most defensible conclusion."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "reasoning",
+    "verification",
+    "rigor"
+  ]
+}
