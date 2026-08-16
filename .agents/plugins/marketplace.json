@@ -257,10 +257,10 @@
       "category": "Productivity"
     },
     {
-      "name": ".codex-plugin",
+      "name": "api-contract-safety",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/api-contract-safety"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -269,10 +269,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "ci-quality-gate",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/ci-quality-gate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -281,10 +281,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "database-change-safety",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/database-change-safety"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -293,10 +293,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "dependency-governance",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/dependency-governance"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -305,10 +305,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "engineering-skill-quality-gate",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/engineering-skill-quality-gate"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -317,10 +317,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "implementation-planner",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/implementation-planner"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -329,10 +329,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "incident-debugging",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/incident-debugging"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -341,10 +341,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "production-readiness",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/production-readiness"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -353,10 +353,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "professional-code-review",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/professional-code-review"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -365,10 +365,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "professional-engineering-workflow",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/professional-engineering-workflow"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -377,10 +377,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "release-readiness",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/release-readiness"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -389,10 +389,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "repository-onboarding",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/repository-onboarding"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -401,10 +401,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "safe-refactoring",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/safe-refactoring"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -413,10 +413,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "test-engineering",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/test-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -425,10 +425,10 @@
       "category": "Engineering"
     },
     {
-      "name": ".codex-plugin",
+      "name": "token-efficient-engineering",
       "source": {
         "source": "local",
-        "path": "./plugins/engineering/.codex-plugin"
+        "path": "./plugins/engineering/token-efficient-engineering"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -437,4 +437,4 @@
       "category": "Engineering"
     }
   ]
-}\n
+}
