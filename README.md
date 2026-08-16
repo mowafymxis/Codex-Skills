@@ -6,7 +6,8 @@ A personal, installable collection of Codex skills for software engineering, rea
 
 | Category | Best for | Plugins |
 | --- | --- | --- |
-| [Coding & Engineering](./plugins/coding/README.md) | Code behavior, dependencies, migrations, runtime systems, and engineering changes | 9 |\n| [Engineering](./plugins/engineering/README.md) | Professional planning, implementation, review, testing, release, and operational workflows | 15 |
+| [Coding & Engineering](./plugins/coding/README.md) | Code behavior, dependencies, migrations, runtime systems, and engineering changes | 9 |
+| [Engineering](./plugins/engineering/README.md) | Professional planning, implementation, review, testing, release, and operational workflows | 15 |
 | [Reasoning & Context](./plugins/reasoning/README.md) | Context, decisions, handoffs, scope control, blind spots, and balanced evaluation | 7 |
 | [Quality & Verification](./plugins/quality/README.md) | Evidence, absence claims, rollback safety, change proof, and test prioritization | 4 |
 | [Research & Product](./plugins/research/README.md) | Competitor intelligence and product strategy | 1 |
@@ -24,6 +25,7 @@ The repository includes a local marketplace manifest at [`.agents/plugins/market
 ```
 plugins/
 ├── coding/
+├── engineering/
 ├── quality/
 ├── reasoning/
 └── research/
