@@ -1,0 +1,14 @@
+interface:
+  display_name: Professional Code Review
+  short_description: Review changes for real defects
+  default_prompt: Use $professional-code-review to review this diff design-first and
+    report only actionable findings.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

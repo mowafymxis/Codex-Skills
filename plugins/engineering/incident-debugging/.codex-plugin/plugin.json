@@ -1,0 +1,32 @@
+{
+  "name": "incident-debugging",
+  "version": "1.0.0",
+  "description": "Investigate production or development failures through evidence preservation, timeline construction, hypothesis testing, safe reproduction, root-cause isolation, minimal repair, regression coverage, and recovery verification. Use for incidents, regressions, outages, or unexplained behavior.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Incident Debugging",
+    "shortDescription": "Debug from evidence to root cause",
+    "longDescription": "Investigate production or development failures through evidence preservation, timeline construction, hypothesis testing, safe reproduction, root-cause isolation, minimal repair, regression coverage, and recovery verification. Use for incidents, regressions, outages, or unexplained behavior.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $incident-debugging to investigate this failure without guessing or losing evidence."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "incident-debugging"
+  ]
+}

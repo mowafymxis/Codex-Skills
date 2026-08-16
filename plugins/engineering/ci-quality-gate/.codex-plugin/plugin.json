@@ -1,0 +1,32 @@
+{
+  "name": "ci-quality-gate",
+  "version": "1.0.0",
+  "description": "Audit or improve continuous-integration quality gates for deterministic builds, linting, type checks, tests, artifacts, dependency checks, caching, matrices, secrets, and failure visibility. Use when designing CI, reviewing workflow changes, or diagnosing unreliable quality gates; route GitHub Actions-specific failures to the dedicated GitHub CI workflow when appropriate.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CI Quality Gate",
+    "shortDescription": "Make CI trustworthy and efficient",
+    "longDescription": "Audit or improve continuous-integration quality gates for deterministic builds, linting, type checks, tests, artifacts, dependency checks, caching, matrices, secrets, and failure visibility. Use when designing CI, reviewing workflow changes, or diagnosing unreliable quality gates; route GitHub Actions-specific failures to the dedicated GitHub CI workflow when appropriate.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $ci-quality-gate to audit this pipeline for trustworthy, efficient verification."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "ci-quality-gate"
+  ]
+}

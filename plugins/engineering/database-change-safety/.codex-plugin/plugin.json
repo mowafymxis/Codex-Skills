@@ -1,0 +1,32 @@
+{
+  "name": "database-change-safety",
+  "version": "1.0.0",
+  "description": "Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Database Change Safety",
+    "shortDescription": "Make migrations production-safe",
+    "longDescription": "Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $database-change-safety to review this schema or data change for rollout, integrity, and rollback risk."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "database-change-safety"
+  ]
+}

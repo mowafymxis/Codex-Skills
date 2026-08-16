@@ -1,0 +1,14 @@
+interface:
+  display_name: Dependency Governance
+  short_description: Add and upgrade dependencies safely
+  default_prompt: Use $dependency-governance to evaluate this dependency change before
+    editing manifests.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

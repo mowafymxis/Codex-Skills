@@ -1,0 +1,32 @@
+{
+  "name": "api-contract-safety",
+  "version": "1.0.0",
+  "description": "Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "API Contract Safety",
+    "shortDescription": "Protect API compatibility",
+    "longDescription": "Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $api-contract-safety to review this API change for consumers, compatibility, and verification."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "api-contract-safety"
+  ]
+}

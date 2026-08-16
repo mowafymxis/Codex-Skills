@@ -1,0 +1,32 @@
+{
+  "name": "production-readiness",
+  "version": "1.0.0",
+  "description": "Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Production Readiness",
+    "shortDescription": "Check operational readiness",
+    "longDescription": "Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $production-readiness to assess whether this service is ready to operate reliably."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "production-readiness"
+  ]
+}

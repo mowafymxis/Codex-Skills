@@ -1,0 +1,14 @@
+interface:
+  display_name: Token-Efficient Engineering
+  short_description: Reduce context cost without shortcuts
+  default_prompt: Use $token-efficient-engineering to reduce unnecessary context and
+    tool usage while preserving verification quality.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

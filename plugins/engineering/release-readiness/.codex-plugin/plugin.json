@@ -1,0 +1,32 @@
+{
+  "name": "release-readiness",
+  "version": "1.0.0",
+  "description": "Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Release Readiness",
+    "shortDescription": "Prepare safer release plans",
+    "longDescription": "Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $release-readiness to validate this release plan and rollback path."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "release-readiness"
+  ]
+}

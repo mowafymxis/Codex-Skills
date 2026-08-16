@@ -1,0 +1,14 @@
+interface:
+  display_name: CI Quality Gate
+  short_description: Make CI trustworthy and efficient
+  default_prompt: Use $ci-quality-gate to audit this pipeline for trustworthy, efficient
+    verification.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

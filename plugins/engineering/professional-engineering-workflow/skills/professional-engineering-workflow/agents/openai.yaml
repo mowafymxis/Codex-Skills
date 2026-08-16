@@ -1,0 +1,4 @@
+interface:
+  display_name: "Professional Engineering Workflow"
+  short_description: "Run risk-based engineering changes"
+  default_prompt: "Use $professional-engineering-workflow to execute this change with a focused plan and evidence-backed verification."

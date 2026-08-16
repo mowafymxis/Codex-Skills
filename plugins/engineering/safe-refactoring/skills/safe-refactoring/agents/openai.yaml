@@ -1,0 +1,14 @@
+interface:
+  display_name: Safe Refactoring
+  short_description: Refactor without behavior drift
+  default_prompt: Use $safe-refactoring to refactor this code incrementally while
+    preserving verified behavior.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

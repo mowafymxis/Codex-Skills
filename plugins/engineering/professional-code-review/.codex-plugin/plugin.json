@@ -1,0 +1,32 @@
+{
+  "name": "professional-code-review",
+  "version": "1.0.0",
+  "description": "Review a code diff, commit, or change set for design, correctness, maintainability, compatibility, performance, testing, and operational risks. Use for pull-request review or pre-merge review; do not modify code unless explicitly asked.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Professional Code Review",
+    "shortDescription": "Review changes for real defects",
+    "longDescription": "Review a code diff, commit, or change set for design, correctness, maintainability, compatibility, performance, testing, and operational risks. Use for pull-request review or pre-merge review; do not modify code unless explicitly asked.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $professional-code-review to review this diff design-first and report only actionable findings."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "professional-code-review"
+  ]
+}

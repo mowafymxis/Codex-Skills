@@ -1,0 +1,32 @@
+{
+  "name": "implementation-planner",
+  "version": "1.0.0",
+  "description": "Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Implementation Planner",
+    "shortDescription": "Turn requests into safe plans",
+    "longDescription": "Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $implementation-planner to turn this request into an implementation plan with tests and rollback considerations."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "implementation-planner"
+  ]
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: Release Readiness
+  short_description: Prepare safer release plans
+  default_prompt: Use $release-readiness to validate this release plan and rollback
+    path.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

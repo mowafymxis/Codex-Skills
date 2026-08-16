@@ -1,0 +1,32 @@
+{
+  "name": "engineering-skill-quality-gate",
+  "version": "1.0.0",
+  "description": "Audit or validate a Codex skill for accurate triggering, concise progressive disclosure, safe workflows, useful outputs, deterministic resources, installation correctness, and realistic task performance. Use when creating, updating, publishing, or reviewing a skill.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Engineering Skill Quality Gate",
+    "shortDescription": "Validate Codex skills professionally",
+    "longDescription": "Audit or validate a Codex skill for accurate triggering, concise progressive disclosure, safe workflows, useful outputs, deterministic resources, installation correctness, and realistic task performance. Use when creating, updating, publishing, or reviewing a skill.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $engineering-skill-quality-gate to audit this Codex skill for trigger quality, safety, and token efficiency."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "engineering-skill-quality-gate"
+  ]
+}

@@ -1,0 +1,14 @@
+interface:
+  display_name: Test Engineering
+  short_description: Design and verify meaningful tests
+  default_prompt: Use $test-engineering to build a focused test strategy and verify
+    the changed behavior.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Repository Onboarding
+  short_description: Map an unfamiliar codebase quickly
+  default_prompt: Use $repository-onboarding to map this repository before changing
+    it.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Incident Debugging
+  short_description: Debug from evidence to root cause
+  default_prompt: Use $incident-debugging to investigate this failure without guessing
+    or losing evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

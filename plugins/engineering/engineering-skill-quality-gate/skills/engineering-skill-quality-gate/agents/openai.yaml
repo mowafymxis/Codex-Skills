@@ -1,0 +1,14 @@
+interface:
+  display_name: Skill Quality Gate
+  short_description: Validate Codex skills professionally
+  default_prompt: Use $skill-quality-gate to audit this Codex skill for trigger quality,
+    safety, and token efficiency.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

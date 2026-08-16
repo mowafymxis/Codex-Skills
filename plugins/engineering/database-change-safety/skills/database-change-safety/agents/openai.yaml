@@ -1,0 +1,14 @@
+interface:
+  display_name: Database Change Safety
+  short_description: Make migrations production-safe
+  default_prompt: Use $database-change-safety to review this schema or data change
+    for rollout, integrity, and rollback risk.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

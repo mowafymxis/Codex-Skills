@@ -1,0 +1,32 @@
+{
+  "name": "token-efficient-engineering",
+  "version": "1.0.0",
+  "description": "Reduce unnecessary model context, tool output, repeated inspection, and verification cost during software work without weakening correctness, safety, or quality. Use explicitly for large repositories, long tasks, repeated Codex iterations, or when token efficiency is a stated requirement.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Token-Efficient Engineering",
+    "shortDescription": "Reduce context cost without shortcuts",
+    "longDescription": "Reduce unnecessary model context, tool output, repeated inspection, and verification cost during software work without weakening correctness, safety, or quality. Use explicitly for large repositories, long tasks, repeated Codex iterations, or when token efficiency is a stated requirement.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $token-efficient-engineering to reduce unnecessary context and tool usage while preserving verification quality."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "engineering",
+    "software-engineering",
+    "token-efficient-engineering"
+  ]
+}
