@@ -4,7 +4,7 @@
   "description": "Evaluate negative claims such as “unused,” “never called,” “no secrets,” “no route,” or “nothing else changed” with bounded, multi-surface evidence and explicit coverage limits. Use for deletion decisions, security audits, dead-code analysis, migration cleanup, repository reviews, and any conclusion that depends on proving something is absent.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $absence-proof-auditor to verify this negative claim."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

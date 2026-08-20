@@ -1,7 +1,7 @@
 {
   "name": "rigor",
   "version": "1.0.0",
-  "description": "Run a universal, balanced, multi-pass evaluation that preserves every applicable user requirement, identifies what is good and bad, searches for missing considerations and downstream effects, verifies evidence, and produces an honest final judgment.",
+  "description": "Run a universal, balanced, multi-pass evaluation that preserves every applicable user requirement, identifies what is good and bad, searches for missing considerations and downstream effects, verifies evidence, and produces an honest final judgment. Use for literally any request, idea, statement, question, decision, plan, design, code task, review, research task, calculation, or other content whenever the message begins with the case-insensitive prefix `rigor:` after optional whitespace, or when the user explicitly invokes `$rigor` or `@rigor`. The prefix alone is sufficient to trigger the skill regardless of topic.",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Rigor",
     "shortDescription": "Universal balanced multi-pass evaluation",
-    "longDescription": "Evaluate requests, ideas, decisions, plans, designs, code, research, calculations, and other work from both the strongest case for and the strongest case against, then produce an evidence-backed conclusion.",
+    "longDescription": "Run a universal, balanced, multi-pass evaluation that preserves every applicable user requirement, identifies what is good and bad, searches for missing considerations and downstream effects, verifies evidence, and produces an honest final judgment. Use for literally any request, idea, statement, question, decision, plan, design, code task, review, research task, calculation, or other content whenever the message begins with the case-insensitive prefix `rigor:` after optional whitespace, or when the user explicitly invokes `$rigor` or `@rigor`. The prefix alone is sufficient to trigger the skill regardless of topic.",
     "developerName": "Mohamed Mowafy",
     "category": "Productivity",
     "capabilities": [

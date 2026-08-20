@@ -4,7 +4,7 @@
   "description": "Discover implicit behavior contracts from callers, tests, schemas, examples, logs, and production adapters, then create characterization tests that preserve only relied-upon behavior before a risky refactor. Use for legacy code, undocumented APIs, dependency replacement, parser rewrites, compatibility work, and behavior-preserving refactors.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $contract-shadow-tests before replacing this implementation."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

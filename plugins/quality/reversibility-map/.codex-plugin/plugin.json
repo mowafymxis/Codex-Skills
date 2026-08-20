@@ -4,7 +4,7 @@
   "description": "Map a proposed change by how completely, quickly, and safely it can be undone, including hidden one-way effects in data, identity, billing, external messages, and caches. Use before deployments, migrations, destructive actions, dependency upgrades, feature rollouts, account changes, and production mutations.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $reversibility-map to find the last safe rollback point."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

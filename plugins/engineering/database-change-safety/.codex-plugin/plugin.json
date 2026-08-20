@@ -1,7 +1,7 @@
 {
   "name": "database-change-safety",
   "version": "1.0.0",
-  "description": "Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.",
+  "description": "\"Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Database Change Safety",
     "shortDescription": "Make migrations production-safe",
-    "longDescription": "Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.",
+    "longDescription": "\"Review database schema, migration, index, constraint, and data-backfill changes for locking, mixed-version deployment, integrity, performance, reversibility, and rollback risk. Use before creating or applying database changes, especially in production systems.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

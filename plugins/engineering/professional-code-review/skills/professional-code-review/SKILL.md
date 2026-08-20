@@ -27,20 +27,19 @@ Report only findings that are actionable and supported by evidence. For each fin
 
 Do not report personal style preferences, hypothetical issues with no plausible path, or issues already ruled out by tests or repository policy. Separate confirmed findings from questions and residual uncertainty. If no material findings are supported, say so and state what was not verified.
 
+Keep pre-existing defects separate from regressions introduced or exposed by the change. Mention an out-of-scope defect only when it materially changes the safety of merging the reviewed change.
+
 ## Review modes
 
 - **Diff review:** focus on changed behavior and its immediate blast radius.
 - **Pre-merge review:** include CI, migration, release, and documentation readiness.
 - **Architecture review:** inspect design alternatives and long-term coupling, not just line edits.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository review instructions and inspect the diff first. Expand to callers, schemas, tests, and operations only to prove or disprove a finding.
+- Review is read-only. Do not modify code, post reviews, or change pull-request state unless the user explicitly asks.
+- Prefer executable checks and exact symbols or lines. Reuse established evidence, avoid duplicate findings, and state checks not run or contexts not available.
 
 
 ## Example prompts

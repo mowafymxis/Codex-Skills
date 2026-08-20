@@ -1,8 +1,8 @@
 interface:
   display_name: Implementation Planner
-  short_description: Turn requests into safe plans
-  default_prompt: Use $implementation-planner to turn this request into an implementation
-    plan with tests and rollback considerations.
+  short_description: Repository-grounded implementation plans
+  default_prompt: Use $implementation-planner to produce a repository-grounded plan
+    with acceptance criteria, tests, rollout, and rollback.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

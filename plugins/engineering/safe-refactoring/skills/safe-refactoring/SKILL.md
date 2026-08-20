@@ -12,6 +12,7 @@ Separate structural improvement from behavior change. If behavior must change, s
 - Identify public and implicit contracts, callers, persistence formats, permissions, timing, side effects, and failure behavior.
 - Find existing tests and add characterization tests for important behavior that is currently unprotected.
 - Record invariants and compatibility requirements.
+- Treat latency, allocation, ordering, logging, and failure timing as contracts when callers or service objectives rely on them; benchmark only when the contract requires it.
 - Check repository state and preserve unrelated changes.
 
 ## Refactor incrementally
@@ -29,14 +30,11 @@ Separate structural improvement from behavior change. If behavior must change, s
 - Stop and report if the baseline reveals an undocumented behavior, a test fails, or the change requires migration.
 - Do not delete compatibility code or data without evidence that all consumers are migrated.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions and status first. Inspect contracts, callers, tests, and dynamic references before editing.
+- Planning and review are read-only. When implementation is authorized, keep each transformation one-purpose, preserve unrelated changes, and stop when behavior evidence changes.
+- Run focused checks after risky boundaries and broader checks before handoff. Report exact results, baseline failures, and behavior that remains uncharacterized.
 
 
 ## High-risk escalation

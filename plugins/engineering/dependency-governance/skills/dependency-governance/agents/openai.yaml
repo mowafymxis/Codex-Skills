@@ -1,8 +1,8 @@
 interface:
   display_name: Dependency Governance
-  short_description: Add and upgrade dependencies safely
-  default_prompt: Use $dependency-governance to evaluate this dependency change before
-    editing manifests.
+  short_description: Govern dependency risk and lifecycle
+  default_prompt: Use $dependency-governance to evaluate this dependency change for
+    capability fit, maintenance, supply-chain risk, and exit cost.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

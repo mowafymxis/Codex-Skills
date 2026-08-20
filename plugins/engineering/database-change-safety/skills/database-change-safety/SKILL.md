@@ -11,6 +11,7 @@ Assume application versions can overlap and data can be larger or more diverse t
 
 - Identify the database engine, migration framework, schema, constraints, indexes, triggers, views, jobs, and application queries.
 - Determine deployment order, live-version overlap, transaction behavior, estimated data volume, and lock or rewrite risk.
+- Include replicas, change-data capture, search indexes, caches, analytics consumers, and read models when they observe the changed schema or data meaning.
 - Find null, duplicate, orphaned, legacy, and unexpected values before tightening constraints.
 - Separate schema change, backfill, application rollout, cleanup, and destructive removal.
 
@@ -19,6 +20,7 @@ Assume application versions can overlap and data can be larger or more diverse t
 - Use expand/contract for changes that span application versions.
 - Add compatible columns or tables before reading or writing them.
 - Make backfills resumable, bounded, observable, and safe to retry.
+- Define batch size, throttling, pause/resume controls, lag thresholds, and reconciliation before running a large backfill.
 - Build or validate indexes with the engine’s least disruptive supported method.
 - Delay destructive drops until consumers and backups are verified gone.
 - Define rollback, forward-fix, reconciliation, and recovery; do not assume a failed migration can simply be reversed.
@@ -30,14 +32,11 @@ Assume application versions can overlap and data can be larger or more diverse t
 - Do not run production migrations, deletes, or irreversible backfills without explicit authorization.
 - Report exact commands/checks, data assumptions, integrity checks, and unresolved operational risks.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions and status first. Inspect the migration, affected queries, engine/version documentation, and representative data before recommending execution.
+- Default to review or plan mode. Never apply production migrations, backfills, deletes, or constraint changes without explicit authorization and a verified target.
+- Prefer dry runs, explain plans, integrity queries, and disposable-environment tests. Report exact checks, scale assumptions, results, and the last safe rollback point.
 
 
 ## Output

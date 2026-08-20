@@ -13,7 +13,8 @@ Build a compact, evidence-backed map of the repository. This skill is normally r
 2. List top-level files and likely manifests without dumping the entire tree.
 3. Identify language/framework, package manager, build, lint, type-check, test, and format commands from manifests and CI.
 4. Locate application entry points, routes, services, data access, shared modules, tests, and deployment configuration.
-5. Trace only the paths relevant to the user’s task.
+5. Identify source-of-truth files, generated outputs, dependency direction, package boundaries, and files that repository policy forbids editing.
+6. Trace only the paths relevant to the user’s task.
 
 ## Record verified facts
 
@@ -28,14 +29,11 @@ Return:
 
 Do not infer a command from a familiar framework when the repository does not document or expose it. Distinguish observed configuration from a recommendation.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Start with status, local instructions, manifests, and a bounded file inventory. Use symbol search before opening large files.
+- Keep onboarding read-only unless the user explicitly asks for documentation changes. Do not install dependencies, run destructive setup, or mutate external services merely to map the repository.
+- Reuse verified facts and report exact paths, commands discovered, assumptions, and unavailable systems. Stop when the requested change path is explainable and verifiable.
 
 
 ## Stop condition

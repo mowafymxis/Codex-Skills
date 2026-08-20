@@ -77,6 +77,10 @@ Return:
 
 If no claim needs verification, say why the existing evidence is sufficient.
 
+## Execution boundary
+
+Ledger construction is analysis. Verify claims only within the parent task's access and mutation boundaries, and never probe live production merely to reduce an evidence score.
+
 ## Example prompts
 
 - “Use $evidence-debt-ledger to separate facts from assumptions in this audit.”

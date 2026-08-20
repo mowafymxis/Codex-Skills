@@ -72,6 +72,10 @@ When absence supports deletion:
 
 Return the claim, scope, coverage matrix, search evidence, blind spots, and conclusion grade. Make the boundary visible in the first sentence.
 
+## Execution boundary
+
+An absence claim is always bounded by the searched surfaces, dates, permissions, and methods. Do not delete or mutate anything during an audit without explicit authority, and do not turn incomplete coverage into an absolute claim.
+
 ## Example prompts
 
 - “Use $absence-proof-auditor before deleting this supposedly unused endpoint.”

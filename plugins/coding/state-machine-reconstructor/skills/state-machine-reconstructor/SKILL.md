@@ -78,6 +78,10 @@ Do not resolve conflicts silently. Present competing models and the evidence nee
 
 Return a state table, transition table, contradictions, unreachable states, and minimal tests that would pin the model. Use a diagram only when it improves comprehension and keep unknown edges explicit.
 
+## Execution boundary
+
+Reconstruction is read-only unless implementation is requested. Preserve competing state models when evidence conflicts; do not silently choose the neatest model or encode it as a contract before validation.
+
 ## Example prompts
 
 - “Use $state-machine-reconstructor on this subscription workflow.”

@@ -1,7 +1,7 @@
 {
   "name": "test-engineering",
   "version": "1.0.0",
-  "description": "Design, implement, and run meaningful tests for software changes using the appropriate unit, integration, contract, end-to-end, property, or manual verification level. Use when adding behavior, fixing a bug, reviewing test coverage, or validating a change.",
+  "description": "\"Design, implement, and run meaningful tests for software changes using the appropriate unit, integration, contract, end-to-end, property, or manual verification level. Use when adding behavior, fixing a bug, reviewing test coverage, or validating a change.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Test Engineering",
     "shortDescription": "Design and verify meaningful tests",
-    "longDescription": "Design, implement, and run meaningful tests for software changes using the appropriate unit, integration, contract, end-to-end, property, or manual verification level. Use when adding behavior, fixing a bug, reviewing test coverage, or validating a change.",
+    "longDescription": "\"Design, implement, and run meaningful tests for software changes using the appropriate unit, integration, contract, end-to-end, property, or manual verification level. Use when adding behavior, fixing a bug, reviewing test coverage, or validating a change.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

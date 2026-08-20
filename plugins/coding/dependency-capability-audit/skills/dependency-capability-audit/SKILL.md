@@ -76,6 +76,10 @@ Return:
 
 Add an adoption decision: `accept`, `accept with containment`, `defer pending evidence`, or `reject for this use`. Explain residual risk and replacement cost without claiming universal safety.
 
+## Execution boundary
+
+This is capability and exposure analysis, not permission to install, remove, upgrade, or execute a dependency. Use `$dependency-governance` when the primary question is general selection, licensing, maintenance, or upgrade policy.
+
 ## Example prompts
 
 - “Use $dependency-capability-audit before adding this analytics SDK.”

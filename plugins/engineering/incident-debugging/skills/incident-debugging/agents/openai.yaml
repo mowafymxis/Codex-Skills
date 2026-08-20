@@ -1,8 +1,8 @@
 interface:
   display_name: Incident Debugging
-  short_description: Debug from evidence to root cause
-  default_prompt: Use $incident-debugging to investigate this failure without guessing
-    or losing evidence.
+  short_description: Evidence-led debugging and recovery
+  default_prompt: Use $incident-debugging to preserve evidence, test competing hypotheses,
+    isolate root cause, and verify recovery.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

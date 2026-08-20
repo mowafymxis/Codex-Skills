@@ -1,7 +1,7 @@
 {
   "name": "safe-refactoring",
   "version": "1.0.0",
-  "description": "Refactor behavior-sensitive code through characterization tests, explicit invariants, small reversible transformations, and incremental verification. Use for legacy cleanup, extraction, renaming, module moves, or complexity reduction when behavior must remain stable.",
+  "description": "\"Refactor behavior-sensitive code through characterization tests, explicit invariants, small reversible transformations, and incremental verification. Use for legacy cleanup, extraction, renaming, module moves, or complexity reduction when behavior must remain stable.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Safe Refactoring",
     "shortDescription": "Refactor without behavior drift",
-    "longDescription": "Refactor behavior-sensitive code through characterization tests, explicit invariants, small reversible transformations, and incremental verification. Use for legacy cleanup, extraction, renaming, module moves, or complexity reduction when behavior must remain stable.",
+    "longDescription": "\"Refactor behavior-sensitive code through characterization tests, explicit invariants, small reversible transformations, and incremental verification. Use for legacy cleanup, extraction, renaming, module moves, or complexity reduction when behavior must remain stable.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

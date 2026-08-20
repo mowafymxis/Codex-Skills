@@ -1,8 +1,8 @@
 interface:
   display_name: Safe Refactoring
-  short_description: Refactor without behavior drift
-  default_prompt: Use $safe-refactoring to refactor this code incrementally while
-    preserving verified behavior.
+  short_description: Behavior-preserving incremental refactors
+  default_prompt: Use $safe-refactoring to characterize behavior, refactor incrementally,
+    and verify compatibility after each risky boundary.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

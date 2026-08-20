@@ -1,7 +1,7 @@
 {
   "name": "dependency-governance",
   "version": "1.0.0",
-  "description": "Evaluate dependency additions, upgrades, removals, and replacements for capability fit, maintenance, licensing, transitive risk, runtime and bundle impact, compatibility, lockfiles, and migration cost. Use before changing package manifests or vendored code.",
+  "description": "\"Evaluate dependency additions, upgrades, removals, and replacements for capability fit, maintenance, licensing, transitive risk, runtime and bundle impact, compatibility, lockfiles, and migration cost. Use before changing package manifests or vendored code.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Dependency Governance",
     "shortDescription": "Add and upgrade dependencies safely",
-    "longDescription": "Evaluate dependency additions, upgrades, removals, and replacements for capability fit, maintenance, licensing, transitive risk, runtime and bundle impact, compatibility, lockfiles, and migration cost. Use before changing package manifests or vendored code.",
+    "longDescription": "\"Evaluate dependency additions, upgrades, removals, and replacements for capability fit, maintenance, licensing, transitive risk, runtime and bundle impact, compatibility, lockfiles, and migration cost. Use before changing package manifests or vendored code.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

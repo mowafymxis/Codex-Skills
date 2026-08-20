@@ -1,8 +1,8 @@
 interface:
   display_name: Rigor
-  short_description: Universal balanced multi-pass evaluation
-  default_prompt: Use $rigor to fully evaluate this from every relevant angle, including
-    what is good, what is bad, and the most defensible conclusion.
+  short_description: Balanced multi-pass evaluation and execution
+  default_prompt: Use $rigor to evaluate this from supporting and opposing angles,
+    execute the request, and verify the result.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

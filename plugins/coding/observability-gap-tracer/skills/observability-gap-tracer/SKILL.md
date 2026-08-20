@@ -81,6 +81,10 @@ Attach each new signal to an alert, query, dashboard decision, or verification s
 
 Return the causal path, signal matrix, smallest telemetry additions, alert condition, and recovery-verification query. State what remains unobservable and why.
 
+## Execution boundary
+
+Auditing telemetry is read-only. Instrumentation changes require implementation authority and must account for sensitive data, cardinality, sampling, retention, cost, and rollback before collection is expanded.
+
 ## Example prompts
 
 - “Use $observability-gap-tracer on this silently failing export job.”

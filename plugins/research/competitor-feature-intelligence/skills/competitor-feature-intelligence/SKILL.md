@@ -57,6 +57,10 @@ Treat the score as decision support. Apply security launch-blocker, costly weak-
 
 Scan only the intended repository. Respect ignore rules. Redact secrets and avoid quoting source code beyond short summaries. Do not send local code to remote services. Respect robots rules, delays, page limits, domain allow/block controls, authentication boundaries, paywalls, and CAPTCHAs. Read [ethical-research-policy.md](references/ethical-research-policy.md) for collection work and [implementation-guidance.md](references/implementation-guidance.md) for technical feasibility.
 
+## Execution boundary
+
+Treat every report as a dated snapshot and record the collection cutoff. The workflow may read authorized public sources, but it must not create issues, contact vendors, log into products, purchase plans, or change remote systems without explicit authorization.
+
 ## Examples
 
 ```text

@@ -1,8 +1,8 @@
 interface:
   display_name: Production Readiness
-  short_description: Check operational readiness
-  default_prompt: Use $production-readiness to assess whether this service is ready
-    to operate reliably.
+  short_description: Production readiness with operational proof
+  default_prompt: Use $production-readiness to assess this service with operational
+    evidence, failure modes, ownership, and recovery proof.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

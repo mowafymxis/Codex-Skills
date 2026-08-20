@@ -71,6 +71,10 @@ Return:
 
 Highlight the least reversible dependency and the last safe rollback point. If any `R4` effect is required, make it explicit before mutation and require clear authorization.
 
+## Execution boundary
+
+Mapping is read-only. Any R4 or otherwise irreversible step needs explicit authorization, a named owner, and a recovery or containment decision; a documented rollback command is not proof that rollback works.
+
 ## Example prompts
 
 - “Use $reversibility-map before applying this database migration.”

@@ -11,6 +11,7 @@ Treat an API as a contract across versions, clients, data, and operations—not 
 
 - Identify producers, consumers, clients, generated SDKs, event handlers, webhooks, tests, and documentation.
 - Record request and response fields, types, defaults, nullability, ordering, status or error codes, pagination, limits, authentication, authorization, and rate behavior.
+- Check content negotiation, cache validators, date/time and numeric encoding, enum expansion, unknown fields, and locale-sensitive behavior when clients can observe them.
 - Check whether clients can observe timing, retries, duplicate delivery, partial failure, or ordering.
 - Classify the change as backward-compatible, breaking, migration-required, or unknown, with evidence.
 
@@ -28,14 +29,11 @@ Treat an API as a contract across versions, clients, data, and operations—not 
 
 Return the contract map, compatibility classification, affected consumers, required migration or rollout, tests, documentation updates, and unresolved unknowns. Do not invent consumers or external guarantees.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions and status first. Inspect the smallest relevant surfaces, then expand only when evidence could change the compatibility decision.
+- Default to review or plan mode. Change contracts, generated clients, documentation, or external systems only when the user authorized implementation; preserve unrelated changes and secrets.
+- Prefer deterministic schema diffs and contract tests. Report exact checks, results, assumptions, and unverified consumers without repeating unchanged evidence.
 
 
 ## Example prompts

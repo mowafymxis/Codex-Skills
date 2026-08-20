@@ -84,6 +84,10 @@ Return:
 
 If the effective value cannot be observed, state the strongest bounded inference and missing access.
 
+## Execution boundary
+
+Treat this as read-only diagnosis unless the user authorizes a change. Do not edit configuration, rotate secrets, restart services, rebuild artifacts, or deploy merely to prove precedence; redact values and prefer identifiers, presence checks, or hashes.
+
 ## Example prompts
 
 - “Use $config-precedence-xray to explain why this flag differs in production.”

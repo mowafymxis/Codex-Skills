@@ -85,6 +85,10 @@ Prefer compensating records over destructive correction when history matters.
 
 Return the time-state matrix, compatibility pairs, gated sequence, abort signals, reconciliation queries, and last safe rollback point. State any irreversible boundary before recommending execution.
 
+## Execution boundary
+
+Produce a migration-state plan unless execution is explicitly authorized. Never run destructive, irreversible, or production migration steps as part of analysis. Route database-locking and data-backfill review to `$database-change-safety`, and wire-contract evolution to `$api-contract-safety`.
+
 ## Example prompts
 
 - “Use $migration-time-machine for this enum-to-table migration.”

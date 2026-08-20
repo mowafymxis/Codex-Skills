@@ -15,6 +15,7 @@ Produce a plan that another engineer could execute without guessing. Default to 
 - Define acceptance criteria that can be verified, including failure and permission cases.
 - List invariants that must remain true.
 - Identify compatibility, migration, rollout, feature-flag, and rollback needs.
+- Define observability, ownership, documentation, and support changes needed to know the rollout succeeded and to respond when it does not.
 - Create a focused test matrix: normal, boundary, invalid, unauthorized, empty, failure, retry, and concurrency cases when relevant.
 - Split work into ordered, reversible steps with a verification point after each risky boundary.
 
@@ -36,14 +37,11 @@ Return:
 5. Risks, migration, rollout, and rollback.
 6. Unresolved questions and the next smallest action.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions and status first. Inspect only the paths needed to ground names, dependencies, and verification commands.
+- Planning is read-only. Do not edit files, create issues, or change external state unless the user separately requests implementation.
+- Cite repository evidence for affected surfaces, reuse established facts, and label unverified commands or assumptions instead of presenting them as tested.
 
 
 ## Example prompts

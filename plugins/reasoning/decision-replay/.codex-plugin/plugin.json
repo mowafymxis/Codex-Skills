@@ -4,7 +4,7 @@
   "description": "Capture a technical or product decision so another person can reproduce why it was chosen from the original evidence, constraints, alternatives, and invalidation triggers. Use for architecture choices, vendor selection, build-vs-buy, incident follow-ups, prioritization, contentious reviews, and decisions likely to be revisited.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $decision-replay to capture why this option won."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

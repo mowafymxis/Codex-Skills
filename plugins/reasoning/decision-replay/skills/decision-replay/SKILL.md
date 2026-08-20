@@ -81,6 +81,10 @@ If not, gather the missing decision-critical evidence.
 
 Return a concise decision record plus a “replay inputs” table and invalidation triggers. Do not hide weak evidence behind a weighted score.
 
+## Execution boundary
+
+Reconstruct decisions without rewriting history through hindsight. Writing a local decision record may be appropriate when requested; changing product, repository, ticket, or other external state requires separate authorization.
+
 ## Example prompts
 
 - “Use $decision-replay for our database choice.”

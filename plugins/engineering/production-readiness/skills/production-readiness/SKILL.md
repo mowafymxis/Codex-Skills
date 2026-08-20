@@ -15,20 +15,18 @@ Evaluate the system as something people must operate under normal load, dependen
 - Review capacity assumptions, resource limits, cold starts, queue growth, storage, database performance, and scaling triggers.
 - Verify secrets, authentication, authorization, privacy, backups, retention, and least-privilege boundaries; use a dedicated security skill for an exhaustive security scan.
 - Confirm deployment, rollback, migration recovery, incident ownership, on-call or support path, runbook, and user communication.
+- Define recovery-time and recovery-point objectives where data matters, and require evidence from a restore or recovery exercise rather than backup existence alone.
 - Test or simulate the most consequential failure modes when safe and authorized.
 
 ## Output
 
 Return a readiness matrix with evidence, gap severity, owner or next action, verification method, and launch blockers. Distinguish “not observed” from “does not exist.” Do not approve based on a checklist alone when the evidence is missing.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository and operational instructions first. Inspect the service boundary, deployment configuration, runbooks, and decisive runtime evidence before expanding scope.
+- Assessment is read-only. Do not deploy, load-test production, rotate secrets, or alter alerts and infrastructure without explicit authorization.
+- Report evidence dates, exact checks, representative-load assumptions, missing owners, and untested recovery paths. Distinguish absent controls from controls not observed.
 
 
 ## Example prompts

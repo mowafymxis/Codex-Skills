@@ -72,6 +72,10 @@ End with:
 - unknown consumers that could not be ruled out;
 - the test path that covers the farthest confirmed ring.
 
+## Execution boundary
+
+This skill maps impact; it does not authorize code or operational changes. Keep confirmed consumers, inferred consumers, and unknown surfaces distinct, and never convert absence of a reference into proof of safety.
+
 ## Example prompts
 
 - “Use $semantic-blast-radius on this tiny status enum change.”

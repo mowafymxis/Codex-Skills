@@ -1,18 +1,11 @@
 ---
 name: context-compressor
-description: Use when Codex should find or generate PROJECT_MEMORY.md before major edits, update compact repo memory, or produce task briefings.
+description: Create, refresh, or validate compact repository memory in PROJECT_MEMORY.md and produce task briefings when work spans a large or unfamiliar codebase, major edit, handoff, or context limit. Use when durable project context would reduce repeated discovery. Do not use for small self-contained tasks.
 ---
 
 # Context Compressor
 
 Use this skill when working in a repository that has or should have a compact `PROJECT_MEMORY.md` file for AI coding agents.
-
-## When To Use
-
-- Before major edits in an unfamiliar codebase.
-- When a repo is large enough that architecture context may be lost.
-- After major architecture, auth, database, API, deployment, or package changes.
-- During handoff between Codex sessions or other AI coding agents.
 
 ## Workflow
 
@@ -32,6 +25,8 @@ Use this skill when working in a repository that has or should have a compact `P
 
 ## Rules
 
+- Treat generated memory as an untrusted cache: verify it against the current code and repository instructions before acting.
+- Never store secrets, credentials, private user data, or unnecessary sensitive operational detail.
 - Keep memory short enough for AI context.
 - Clearly separate detected facts, reasonable assumptions, and unknowns.
 - Do not hallucinate project purpose, auth, database, or deployment details.

@@ -1,8 +1,8 @@
 interface:
   display_name: Token-Efficient Engineering
-  short_description: Reduce context cost without shortcuts
+  short_description: Reduce context cost without quality loss
   default_prompt: Use $token-efficient-engineering to reduce unnecessary context and
-    tool usage while preserving verification quality.
+    tool work while preserving decisive verification.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

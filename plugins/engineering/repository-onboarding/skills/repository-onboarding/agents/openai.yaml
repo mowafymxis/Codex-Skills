@@ -1,8 +1,8 @@
 interface:
   display_name: Repository Onboarding
-  short_description: Map an unfamiliar codebase quickly
-  default_prompt: Use $repository-onboarding to map this repository before changing
-    it.
+  short_description: Map unfamiliar repositories efficiently
+  default_prompt: Use $repository-onboarding to map the relevant repository paths,
+    commands, conventions, and risks before changes.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

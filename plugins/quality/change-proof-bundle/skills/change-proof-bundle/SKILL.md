@@ -92,6 +92,10 @@ Return the bundle and a verdict:
 
 Never claim universal correctness. State the exact scope and environment the evidence covers.
 
+## Execution boundary
+
+Package existing evidence without inventing, smoothing, or replacing the raw artifacts. Writing a local bundle may be in scope; publishing it, attaching it remotely, or changing external records requires explicit authorization.
+
 ## Example prompts
 
 - “Use $change-proof-bundle for this completed migration.”

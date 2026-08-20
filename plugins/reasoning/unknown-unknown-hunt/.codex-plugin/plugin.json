@@ -4,7 +4,7 @@
   "description": "Systematically search for failure classes that ordinary requirements and happy-path reviews are unlikely to name by inverting boundaries, combining layers, and probing novelty zones. Use before high-impact launches, architecture reviews, complex migrations, incident prevention, and plans that appear complete too early.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $unknown-unknown-hunt to probe this launch plan."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

@@ -1,0 +1,33 @@
+{
+  "name": "premium-pdf-design",
+  "version": "1.0.0",
+  "description": "Design, create, redesign, and audit polished non-technical PDFs with context-specific art direction, editorial hierarchy, typography, imagery, page rhythm, navigation, and render verification. Use for guides, playbooks, ebooks, proposals, brochures, portfolios, lookbooks, magazines, handbooks, event books, personal publications, and branded reports whose primary goal is communication rather than engineering evidence. Use technical-report-design for engineering or scientific reports and personal-places-services-directory-pdf for trusted-place directories.",
+  "author": {
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Premium PDF Design",
+    "shortDescription": "Art-directed non-technical PDF design",
+    "longDescription": "Design, create, redesign, and audit polished non-technical PDFs with context-specific art direction, editorial hierarchy, typography, imagery, page rhythm, navigation, and render verification. Use for guides, playbooks, ebooks, proposals, brochures, portfolios, lookbooks, magazines, handbooks, event books, personal publications, and branded reports whose primary goal is communication rather than engineering evidence. Use technical-report-design for engineering or scientific reports and personal-places-services-directory-pdf for trusted-place directories.",
+    "developerName": "Mohamed Mowafy",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $premium-pdf-design to create a polished, art-directed PDF and verify every rendered page."
+    ]
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "pdf",
+    "editorial-design",
+    "document-design",
+    "art-direction"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "release-readiness",
   "version": "1.0.0",
-  "description": "Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.",
+  "description": "\"Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Release Readiness",
     "shortDescription": "Prepare safer release plans",
-    "longDescription": "Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.",
+    "longDescription": "\"Assess a software release for build provenance, compatibility, configuration, migrations, feature flags, observability, rollout, documentation, validation, and rollback. Use before merging, deploying, publishing, or enabling a material change.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

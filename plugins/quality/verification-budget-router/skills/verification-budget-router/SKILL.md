@@ -86,6 +86,10 @@ Return:
 
 End with residual risks and why they are accepted. Never equate passing tests with absence of risk.
 
+## Execution boundary
+
+Budgeting prioritizes optional effort but never waives repository-required checks, safety policy, or acceptance criteria. Execute tests or mutate artifacts only within the authority already granted for the parent task.
+
 ## Example prompts
 
 - “Use $verification-budget-router to spend two hours of testing wisely.”

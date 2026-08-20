@@ -1,16 +1,16 @@
 {
   "name": "context-compressor",
   "version": "1.0.0",
-  "description": "Generate and maintain compact PROJECT_MEMORY.md files and task-specific repository briefings.",
+  "description": "Create, refresh, or validate compact repository memory in PROJECT_MEMORY.md and produce task briefings when work spans a large or unfamiliar codebase, major edit, handoff, or context limit. Use when durable project context would reduce repeated discovery. Do not use for small self-contained tasks.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Context Compressor",
     "shortDescription": "Compact repository memory and task briefings.",
-    "longDescription": "Scan repositories conservatively, generate compact PROJECT_MEMORY.md files, preserve manual notes, and create task-specific briefings.",
+    "longDescription": "Create, refresh, or validate compact repository memory in PROJECT_MEMORY.md and produce task briefings when work spans a large or unfamiliar codebase, major edit, handoff, or context limit. Use when durable project context would reduce repeated discovery. Do not use for small self-contained tasks.",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [
@@ -21,7 +21,7 @@
       "Create or update compact project memory for this repository."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Context-Compressor",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

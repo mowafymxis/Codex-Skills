@@ -58,17 +58,15 @@ Escalate the workflow when the change crosses a boundary, has irreversible effec
 
 - Run the most targeted decisive checks first, then broaden them according to risk. Prefer read-only or isolated checks; if a build, test, cache, snapshot, or generated artifact changes the worktree, report it and clean it only when safe and authorized.
 - Inspect the final diff and check callers, types, schemas, tests, build configuration, and compatibility where relevant.
+- Recheck repository status after tests and builds so generated files, snapshots, caches, or formatter churn cannot enter the handoff unnoticed.
 - Report files changed, checks actually run and their results, assumptions, unresolved risks, and the next action.
 - Say explicitly when a check could not be run. Never imply that unexecuted code was tested.
 
 ## Evidence and efficiency
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Inspect the smallest relevant surfaces first and expand only when evidence could change implementation or verification.
+- Reuse established repository facts and unchanged check results; keep a compact ledger of allowed paths, commands, results, assumptions, and risks.
+- Prefer deterministic checks. Never trade away a decisive correctness, authorization, safety, compatibility, or rollback check merely to save tokens.
 
 
 ## Quality anchors

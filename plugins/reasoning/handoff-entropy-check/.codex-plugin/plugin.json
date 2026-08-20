@@ -4,7 +4,7 @@
   "description": "Test whether a work handoff contains enough verified state for a fresh agent or engineer to continue without rediscovery, guesswork, or unsafe repetition. Use before pausing complex work, transferring ownership, summarizing long sessions, handing off incidents, or preparing context for another coding agent.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $handoff-entropy-check to harden this work handoff."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

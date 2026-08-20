@@ -22,6 +22,7 @@ Optimize information flow, not quality. Never save tokens by skipping a decisive
 - Do not invoke overlapping specialist reviews unless each adds a distinct decision or check.
 - Prefer scripts, linters, type checkers, and machine-readable outputs for repetitive inspection.
 - Capture concise command results instead of copying full logs; retain the path to the complete artifact when needed.
+- Do not reopen unchanged files or repeat searches unless a new hypothesis, diff, or failed check makes the old evidence insufficient.
 - Run focused checks first and escalate to broader checks when risk, failure, or repository policy requires it.
 
 ## Preserve the quality floor
@@ -35,14 +36,11 @@ Optimize information flow, not quality. Never save tokens by skipping a decisive
 
 Report the compact evidence ledger, checks run, checks intentionally deferred, token-saving choices, and any quality risk introduced by the deferral. A shorter answer is not a successful optimization if it is less auditable.
 
-## Evidence and efficiency
+## Execution boundary
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Match the user's mode: audits and plans remain read-only; implementation stays within an explicit write set and preserves unrelated changes.
+- Treat output truncation as a reason to narrow or save an artifact, not to guess what hidden output contained.
+- Report only token-saving choices that affected coverage or reproducibility. Do not add meta commentary when the optimization had no user-visible tradeoff.
 
 
 ## Example prompts

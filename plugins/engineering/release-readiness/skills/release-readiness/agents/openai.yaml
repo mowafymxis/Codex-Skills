@@ -1,8 +1,8 @@
 interface:
   display_name: Release Readiness
-  short_description: Prepare safer release plans
-  default_prompt: Use $release-readiness to validate this release plan and rollback
-    path.
+  short_description: Release evidence, rollout, and rollback
+  default_prompt: Use $release-readiness to validate this exact release artifact,
+    rollout plan, observability, and recovery path.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

@@ -68,6 +68,10 @@ Inspect the final diff or action log. Confirm:
 
 Report the outcome first, followed by changed surfaces and preserved surfaces. Never claim “nothing else changed” without a concrete diff, tree, or action-log check.
 
+## Execution boundary
+
+This skill never expands authority. A later instruction revises scope only where it is clear and compatible; preserve unresolved conflicts and ask when the difference would materially change the action.
+
 ## Example prompts
 
 - “Use $intent-drift-guard before changing only the payment callback.”

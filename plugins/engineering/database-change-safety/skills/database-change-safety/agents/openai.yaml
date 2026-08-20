@@ -1,8 +1,8 @@
 interface:
   display_name: Database Change Safety
-  short_description: Make migrations production-safe
-  default_prompt: Use $database-change-safety to review this schema or data change
-    for rollout, integrity, and rollback risk.
+  short_description: Safe migrations, backfills, and rollbacks
+  default_prompt: Use $database-change-safety to review this database change for mixed
+    versions, locks, integrity, recovery, and rollout.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:

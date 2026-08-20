@@ -4,7 +4,7 @@
   "description": "Trace a user-visible or operational failure backward to the signals needed to detect, localize, explain, and verify recovery, then identify the smallest missing telemetry. Use for silent failures, incident readiness, background jobs, distributed workflows, unreliable alerts, and changes whose correctness must be observable after release.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $observability-gap-tracer to expose this silent failure."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

@@ -11,10 +11,12 @@ Reduce uncertainty systematically. A plausible explanation is not a root cause u
 
 1. Capture symptom, affected users or data, start time, scope, frequency, recent changes, and current impact.
 2. Preserve relevant logs, traces, metrics, requests, versions, configuration, and reproduction input before they rotate or change.
-3. Build a concise timeline of observations and actions.
+3. Build a concise timeline of observations and actions. Normalize timestamps to one stated timezone and preserve originals when clock skew or ordering could matter.
 4. Generate a small set of competing hypotheses with predicted evidence.
 5. Test hypotheses using read-only inspection or a safe reproduction first.
 6. Isolate the smallest causal change and distinguish trigger, contributing conditions, and root cause.
+
+A mitigation that suppresses the symptom is not root-cause proof. Require the causal explanation to predict both the failure and the observed recovery.
 
 ## Repair and learn
 
@@ -25,14 +27,11 @@ Reduce uncertainty systematically. A plausible explanation is not a root cause u
 
 Never delete evidence, speculate about users or operators, or claim recovery without an observed signal. Escalate immediately when data loss, security exposure, or ongoing production impact is possible.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read incident and repository instructions first. Preserve volatile evidence, then inspect the smallest surfaces that discriminate competing hypotheses.
+- Investigation starts read-only. Apply mitigations, repairs, production commands, or external changes only with explicit authority and a verified target.
+- Record commands, timestamps, versions, results, failed hypotheses, and evidence gaps. Do not rerun unchanged checks or expose sensitive event data.
 
 
 ## Example prompts

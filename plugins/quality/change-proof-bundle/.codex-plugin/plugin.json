@@ -4,7 +4,7 @@
   "description": "Package a completed change with a compact, independently checkable chain from request to diff, tests, operational evidence, rollback, and residual risk. Use before handoff, release, pull-request review, regulated or high-consequence changes, and any situation where “it works” needs reproducible proof.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $change-proof-bundle to prove this change within scope."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

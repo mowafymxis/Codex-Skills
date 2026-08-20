@@ -75,6 +75,10 @@ Return:
 
 State which behaviors remain unknown and what evidence would resolve them. After implementation, show that both contract tests and intended-change tests pass.
 
+## Execution boundary
+
+Discovery and test design are read-only. Add or modify a harness only when implementation is authorized, keep observed behavior separate from intended behavior, and label pre-existing failures rather than folding them into the new change.
+
 ## Example prompts
 
 - “Use $contract-shadow-tests before replacing this parser.”

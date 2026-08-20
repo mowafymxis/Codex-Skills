@@ -1,7 +1,7 @@
 {
   "name": "repository-onboarding",
   "version": "1.0.0",
-  "description": "Map an unfamiliar software repository before changes by identifying local instructions, architecture, entry points, dependencies, commands, tests, configuration, deployment, and relevant unknowns. Use when starting work in an unfamiliar or substantially changed codebase, not for implementing the change itself.",
+  "description": "\"Map an unfamiliar software repository before changes by identifying local instructions, architecture, entry points, dependencies, commands, tests, configuration, deployment, and relevant unknowns. Use when starting work in an unfamiliar or substantially changed codebase, not for implementing the change itself.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Repository Onboarding",
     "shortDescription": "Map an unfamiliar codebase quickly",
-    "longDescription": "Map an unfamiliar software repository before changes by identifying local instructions, architecture, entry points, dependencies, commands, tests, configuration, deployment, and relevant unknowns. Use when starting work in an unfamiliar or substantially changed codebase, not for implementing the change itself.",
+    "longDescription": "\"Map an unfamiliar software repository before changes by identifying local instructions, architecture, entry points, dependencies, commands, tests, configuration, deployment, and relevant unknowns. Use when starting work in an unfamiliar or substantially changed codebase, not for implementing the change itself.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

@@ -4,7 +4,7 @@
   "description": "Track claims that implementation decisions depend on, score how weak or stale their evidence is, and convert the riskiest uncertainty into targeted verification work. Use for audits, architecture reviews, debugging, planning, research synthesis, inherited systems, and any task where assumptions may silently become facts.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $evidence-debt-ledger to rank the claims that need evidence."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

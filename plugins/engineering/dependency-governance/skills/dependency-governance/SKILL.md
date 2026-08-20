@@ -12,6 +12,7 @@ Treat a dependency as a long-term operational and supply-chain commitment, not a
 - State the exact capability required and check whether the standard library, existing dependency, or local code already provides it safely.
 - Compare viable alternatives on API fit, maintenance, release quality, license, transitive graph, runtime or bundle cost, platform support, and exit cost.
 - Verify current package metadata and official documentation when freshness matters; do not infer health from popularity alone.
+- Check license compatibility, security-advisory history, provenance or signing evidence, deprecation policy, maintainer transfer, and realistic time-to-fix for critical defects.
 - Check lockfiles, peer dependencies, native binaries, build scripts, network behavior, data access, and secret or filesystem capabilities.
 
 ## Change safely
@@ -26,14 +27,11 @@ Treat a dependency as a long-term operational and supply-chain commitment, not a
 
 Return need, alternatives, verified evidence, compatibility and supply-chain risks, exact files to change, checks, and a rollback or removal path. Mark current facts that could not be verified.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions and status first. Inspect manifests, lockfiles, imports, build scripts, and official package evidence before comparing options.
+- Default to evaluation or plan mode. Change dependencies or lockfiles only when implementation is authorized; preserve package-manager conventions and unrelated resolutions.
+- Report current-source dates, exact checks, compatibility results, transitive unknowns, and exit cost. Do not repeat unchanged metadata searches.
 
 
 ## Example prompts

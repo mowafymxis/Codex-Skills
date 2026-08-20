@@ -1,7 +1,7 @@
 {
   "name": "api-contract-safety",
   "version": "1.0.0",
-  "description": "Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.",
+  "description": "\"Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "API Contract Safety",
     "shortDescription": "Protect API compatibility",
-    "longDescription": "Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.",
+    "longDescription": "\"Review API and service contract changes for schema compatibility, authentication, validation, errors, idempotency, pagination, retries, timeouts, documentation, and consumer impact. Use for REST, GraphQL, RPC, events, webhooks, SDKs, or public/internal service interfaces.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

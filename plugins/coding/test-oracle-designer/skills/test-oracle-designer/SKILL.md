@@ -75,6 +75,10 @@ Return:
 
 Include a minimal counterexample strategy and explain which correctness dimensions remain subjective or unproven.
 
+## Execution boundary
+
+Oracle design is read-only. Implement tests only when authorized, keep the oracle independent from the behavior under test, and report baseline failures separately from failures introduced by the current change.
+
 ## Example prompts
 
 - “Use $test-oracle-designer for this optimizer with no known best answer.”

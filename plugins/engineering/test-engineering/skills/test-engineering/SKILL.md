@@ -14,6 +14,7 @@ Test observable behavior and risk, not implementation details merely for coverag
 - Select the cheapest test level that proves the behavior; use higher-level tests where integration is the risk.
 - Cover normal, boundary, invalid, permission, empty, error, retry, timeout, persistence, and concurrency cases when applicable.
 - Avoid brittle assertions, excessive mocking, and tests that pass without exercising the changed path.
+- Control clocks, randomness, locale, network, shared state, and cleanup where they affect repeatability; retain failing seeds and inputs for replay.
 
 ## Execute and diagnose
 
@@ -25,14 +26,11 @@ Test observable behavior and risk, not implementation details merely for coverag
 
 Never claim a test passed unless it was executed successfully. Report command, scope, result, and any unverified area. Do not chase a numeric coverage target when it does not prove the behavior.
 
-## Evidence and efficiency
+## Operating discipline
 
-- Read repository-local instructions before making decisions.
-- Start with file names, symbols, and the smallest relevant slices; expand only when evidence requires it.
-- Reuse facts already established in the task. Do not rediscover the same files or rerun an unchanged check.
-- Prefer deterministic commands, linters, type checkers, and tests over lengthy speculative reasoning.
-- Keep intermediate notes compact: preserve paths, commands, results, assumptions, and unresolved risks.
-- Never trade away a decisive correctness, safety, or compatibility check merely to save tokens.
+- Read repository instructions, acceptance criteria, and existing tests first. Inspect the smallest production boundary needed to prove the test exercises real behavior.
+- Test design and audit are read-only. Add tests or alter fixtures only when implementation is authorized; preserve unrelated snapshots and generated files.
+- Prefer deterministic focused checks, then broaden by risk. Report exact commands, results, failure classification, environment limits, and untested behavior.
 
 
 ## Output

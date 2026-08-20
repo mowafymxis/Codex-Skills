@@ -1,7 +1,7 @@
 {
   "name": "professional-engineering-workflow",
   "version": "1.0.0",
-  "description": "Execute a scoped software change in an existing codebase through repository inspection, minimal implementation, verification, and handoff. Use when the user asks Codex to make and verify a change; use specialized planning, onboarding, review, migration, release, or incident skills for those standalone tasks.",
+  "description": "\"Execute a scoped software change in an existing codebase through repository inspection, minimal implementation, verification, and handoff. Use when the user asks Codex to make and verify a change; use specialized planning, onboarding, review, migration, release, or incident skills for those standalone tasks.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Professional Engineering Workflow",
     "shortDescription": "Run risk-based engineering changes",
-    "longDescription": "Execute a scoped software change in an existing codebase through repository inspection, minimal implementation, verification, and handoff. Use when the user asks Codex to make and verify a change; use specialized planning, onboarding, review, migration, release, or incident skills for those standalone tasks.",
+    "longDescription": "\"Execute a scoped software change in an existing codebase through repository inspection, minimal implementation, verification, and handoff. Use when the user asks Codex to make and verify a change; use specialized planning, onboarding, review, migration, release, or incident skills for those standalone tasks.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

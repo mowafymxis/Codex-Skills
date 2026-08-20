@@ -71,6 +71,10 @@ Return:
 
 End with the top three probes, residual blind spots, and what new evidence would justify another pass.
 
+## Execution boundary
+
+Use bounded, authorized probes and stop before destructive, costly, or production-impacting experiments. This complements ordinary review; it is not a substitute for an exhaustive security scan or a domain-specific safety assessment.
+
 ## Example prompts
 
 - “Use $unknown-unknown-hunt before this launch review.”

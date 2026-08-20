@@ -1,22 +1,28 @@
 {
   "name": "competitor-feature-intelligence",
   "version": "1.0.0",
-  "description": "Repo-aware, evidence-backed competitor feature intelligence and product roadmap generation.",
+  "description": "Analyze an application repository and authorized public competitor sources to produce evidence-backed feature inventories, competitive gaps, priority roadmaps, UX and pricing comparisons, product positioning, and change monitoring. Use for competitor research, feature-gap analysis, product strategy, launch readiness, and repo-aware competitive intelligence.",
   "author": {
-    "name": "Competitor Feature Intelligence Contributors"
+    "name": "Mohamed Mowafy",
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Competitor Feature Intelligence",
     "shortDescription": "Repo-aware competitive product intelligence.",
-    "longDescription": "Inventory real repository behavior, compare authorized public competitor evidence, and generate defensible product roadmaps.",
+    "longDescription": "Analyze an application repository and authorized public competitor sources to produce evidence-backed feature inventories, competitive gaps, priority roadmaps, UX and pricing comparisons, product positioning, and change monitoring. Use for competitor research, feature-gap analysis, product strategy, launch readiness, and repo-aware competitive intelligence.",
     "developerName": "Competitor Feature Intelligence Contributors",
     "category": "Productivity",
-    "capabilities": ["Read", "Write", "Network"],
+    "capabilities": [
+      "Read",
+      "Write",
+      "Network"
+    ],
     "defaultPrompt": [
       "Analyze this repository against my competitors.",
       "Inventory this repository's product features.",
       "Compare this scan with the previous report."
     ]
-  }
+  },
+  "repository": "https://github.com/mowafymxis/Codex-Skills"
 }

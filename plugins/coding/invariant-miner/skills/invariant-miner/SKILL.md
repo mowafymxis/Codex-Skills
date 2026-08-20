@@ -79,6 +79,10 @@ Return:
 
 Separate validated invariants from open hypotheses. Include the smallest test or query that would falsify each high-value candidate.
 
+## Execution boundary
+
+Mined rules are candidates until corroborated by code paths, tests, data, or owners. Analysis is read-only; adding assertions, constraints, migrations, or enforcement requires explicit implementation authority.
+
 ## Example prompts
 
 - “Use $invariant-miner to uncover the hidden rules in this billing code.”

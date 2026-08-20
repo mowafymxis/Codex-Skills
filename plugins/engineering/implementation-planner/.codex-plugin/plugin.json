@@ -1,7 +1,7 @@
 {
   "name": "implementation-planner",
   "version": "1.0.0",
-  "description": "Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.",
+  "description": "\"Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Implementation Planner",
     "shortDescription": "Turn requests into safe plans",
-    "longDescription": "Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.",
+    "longDescription": "\"Turn a software request into a repository-grounded implementation plan with acceptance criteria, affected surfaces, invariants, edge cases, tests, migration or rollout needs, and rollback considerations. Use before implementing a non-trivial feature, behavior change, or cross-layer modification.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

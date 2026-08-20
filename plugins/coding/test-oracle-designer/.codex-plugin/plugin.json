@@ -4,7 +4,7 @@
   "description": "Design reliable ways to decide whether software is correct when exact expected outputs are unknown, expensive, nondeterministic, or produced by legacy or AI systems. Use for parsers, optimizers, simulations, migrations, search, numerical code, data pipelines, generative systems, and refactors lacking trustworthy golden outputs.",
   "author": {
     "name": "Mohamed Mowafy",
-    "url": "https://github.com/mmowafy28"
+    "url": "https://github.com/mowafymxis"
   },
   "skills": "./skills/",
   "interface": {
@@ -21,7 +21,7 @@
       "Use $test-oracle-designer to build an independent oracle."
     ]
   },
-  "repository": "https://github.com/mmowafy28/Codex-Skills",
+  "repository": "https://github.com/mowafymxis/Codex-Skills",
   "license": "Apache-2.0",
   "keywords": [
     "codex",

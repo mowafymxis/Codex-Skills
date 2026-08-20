@@ -1,7 +1,7 @@
 {
   "name": "production-readiness",
   "version": "1.0.0",
-  "description": "Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.",
+  "description": "\"Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.\"",
   "author": {
     "name": "Mohamed Mowafy",
     "url": "https://github.com/mowafymxis"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Production Readiness",
     "shortDescription": "Check operational readiness",
-    "longDescription": "Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.",
+    "longDescription": "\"Assess whether a service, web application, or major feature is ready for production operation through reliability, observability, security boundaries, capacity, recovery, ownership, and runbook checks. Use before first launch, a major architecture change, or accepting operational responsibility.\"",
     "developerName": "Mohamed Mowafy",
     "category": "Developer Tools",
     "capabilities": [

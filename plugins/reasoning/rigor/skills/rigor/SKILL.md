@@ -106,6 +106,12 @@ Evaluate all findings together rather than averaging them mechanically.
 
 For substantive requests, continue challenge passes until an additional pass produces no new material finding, or until a real time, access, or evidence limit is reached. If stopped by a limit, disclose it. Do not loop for cosmetic variations.
 
+## Evidence and stopping discipline
+
+- Keep a compact ledger of requirements, verified facts, assumptions, changed surfaces, checks, and unresolved risks. Reuse it instead of reopening unchanged evidence.
+- Spend verification effort where freshness, uncertainty, or consequence can change the decision. Do not browse stable facts or add review passes solely to appear thorough.
+- Make independent passes test different hypotheses or lenses. Stop when a new pass yields no material finding, and never trade away a decisive safety or correctness check for brevity.
+
 ## Domain-specific minimums
 
 ### Ideas, plans, and decisions
